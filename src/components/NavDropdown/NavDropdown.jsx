@@ -16,7 +16,7 @@ function NavDropdown(props) {
         <>
             {/* Dropdown menu */}
             {props.isOpen &&
-                <ul className='text-alterText absolute top-[10%] z-50 flex h-[90%] w-[65%] flex-col overflow-auto border-none bg-customWhite-alt px-0.5 shadow md:w-[45%] md:px-1 lg:w-[18%]'>
+                <ul className='text-alterText absolute top-[10%] z-50 flex h-[90%] w-[65%] flex-col overflow-auto border-none bg-customBrown-alt px-0.5 shadow md:w-[45%] md:px-1 lg:w-[18%]'>
                     {Object.keys(RouteList)
                         .map(key => (
                             <NavUnit

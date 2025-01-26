@@ -40,7 +40,7 @@ function RootChild({ children }) {
         <div className="relative flex h-full w-full flex-col">
 
             {/* Header */}
-            <div className="relative flex h-[10%] w-full flex-wrap items-center justify-start bg-customWhite-alt px-3 py-0 text-base text-customBrown md:text-lg lg:text-base">
+            <div className="relative flex h-[10%] w-full flex-wrap items-center justify-start bg-customBrown-alt px-3 py-0 text-base text-customBrown md:text-lg lg:text-base">
                 <div className='flex h-full w-[10%] md:w-[8%] lg:w-[3%] lg:justify-center lg:py-1'>
                     <CommonButton
                         name={`burgernav-button`}
