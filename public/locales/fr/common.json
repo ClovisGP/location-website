@@ -20,5 +20,8 @@
 	"home": {
 		"home": "Accueil",
 		"presentationText": "En plein coeur du Luberon à cinq kilomètres d'Apt, la capitale du fruit confit, c'est l'âme de la Provence qui se révèle à vous. Je loue ces Mas de caractère pour vos vacances afin de vous mettre en contact avec la nature et notre belle région. C'est ici que le soleil et moi-même vous accueillerons, dans ce havre de paix.\nViticulteur sur une petite exploitation de 7HA, je pourrais vous faire découvrir mon métier, issus d'un savoir-faire transmis de père en fils depuis plusieurs générations.\nJe porte une attention particulière à la décoration et aux aménagements de votre cadre de vacances dans le but de vous offrir tous les plus beaux présents que la Provence a à vous offrir."
+	},
+	"mauragne": {
+		"label": "Mauragne"
 	}
 }

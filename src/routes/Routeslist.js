@@ -7,6 +7,12 @@ const RoutesList = {
         path:'/',
         displayOnNav: true,
     },
+    mauragne : {
+        label: 'mauragne.label',
+        icon: <SVGHome />,
+        path:'/mauragne',
+        displayOnNav: true,
+    },
 };
 
 export default RoutesList;
