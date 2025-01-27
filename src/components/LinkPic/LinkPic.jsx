@@ -12,7 +12,7 @@ import Link from 'next/link';
 function LinkPic(props) {
     return (
         <Link
-            className='relative block h-full w-full shadow-md shadow-customGray hover:shadow-lg hover:shadow-customGray bg-blue-500'
+            className='relative block h-full w-full shadow-md shadow-customGray hover:shadow-lg hover:shadow-customGray'
             href={props.url}
         >
             <Image
