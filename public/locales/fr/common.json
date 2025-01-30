@@ -3,18 +3,6 @@
 		"label": "Nom",
 		"status": "Statut",
 		"description": "Description",
-		"valid": "Valider",
-		"cancel": "Annuler",
-		"modify": "Modifier",
-		"ongoing-redirection": "Redirection en cours",
-		"createdAt": "Date de création",
-		"updatedAt": "Dernière modification",
-		"create": "Créer",
-		"process-ongoing": "Processus en cours",
-		"process-done": "Processus terminé",
-		"you": "Vous",
-		"yes": "Oui",
-		"no": "Non",
 		"loading": "Chargement"
 	},
 	"home": {
