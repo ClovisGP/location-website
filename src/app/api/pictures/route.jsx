@@ -32,7 +32,7 @@ export async function genList(directoryTargeted) {
                         {
                             label: path.basename(file, path.extname(file)),
                             category: path.basename(directoryTargeted),
-                            path: fullPath.replace('public', '')  //remove the public
+                            path: fullPath.replace('public', '').replace('\\', '/')  //remove the public
                         }
                     );
                 }

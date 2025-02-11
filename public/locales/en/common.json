@@ -1,36 +1,24 @@
 {
-    "common": {
-        "parceller": "Parceller",
-        "label": "Name",
-        "status": "Status",
-        "description": "Description",
-        "valid": "Validate",
-        "cancel": "Cancel",
-        "close": "Close",
-        "modify": "Modify",
-        "ongoing-redirection": "Redirecting",
-        "createdAt": "Creation date",
-        "updatedAt": "Last modification",
-        "create": "Create",
-        "process-ongoing": "Ongoing process",
-        "process-done": "Process done",
-        "placeholderDatePicker": "Pick a date",
-        "you": "You",
-        "yes": "Yes",
-        "no": "No",
-        "loading": "Loading",
-        "suppressLabelOf": "Suppression of ",
-        "deleteQuestion": "Do you really want to suppress this object ?",
-        "deleteWarning": "This action is definitive and this object will not appear anymore in another linked object or in your history.",
-        "detailedView": "Detailed view"
-    },
-    "home": {
-        "welcomeTo": "Welcome to",
-        "home": "Home",
-        "welcomeText": "A website to manage your deliveries for all your home.",
-        "explainationText": "This website was developed in my free time and serves more as a demonstration of my capabilities with these technologies than as a real solution. - 2024"
-    },
+	"common": {
+		"label": "Nom",
+		"status": "Statut",
+		"description": "Description",
+		"loading": "Chargement"
+	},
+	"home": {
+		"home": "Accueil",
+		"presentationText": "En plein coeur du Luberon à cinq kilomètres d'Apt, la capitale du fruit confit, c'est l'âme de la Provence qui se révèle à vous. Je loue ces Mas de caractère pour vos vacances afin de vous mettre en contact avec la nature et notre belle région. C'est ici que le soleil et moi-même vous accueillerons, dans ce havre de paix.\nViticulteur sur une petite exploitation de 7HA, je pourrais vous faire découvrir mon métier, issus d'un savoir-faire transmis de père en fils depuis plusieurs générations.\nJe porte une attention particulière à la décoration et aux aménagements de votre cadre de vacances dans le but de vous offrir tous les plus beaux présents que la Provence a à vous offrir."
+	},
+	"bergerie": {
+		"label": "Bergerie"
+	},
+	"clos": {
+		"label": "Clos"
+	},
 	"mauragne": {
 		"label": "Mauragne"
+	},
+	"pic-label": {
+		"test": "Test"
 	}
 }
