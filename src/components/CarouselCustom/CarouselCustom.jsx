@@ -15,9 +15,7 @@ import {
 /**
  * This component is a carousel of pictures that you can use to navigate
  * @prop list - The list of object with a path, a category and a label
- * @prop picture - The imported picture to display
- * @prop alt - The alternative text to display if the image has a problem
- * @prop description - OPTIONAL The description displayed at the bottom of the image
+
  */
 function CarouselCustom(props) {
     const { t } = useTranslation();
@@ -40,14 +38,14 @@ function CarouselCustom(props) {
 
     return (
         <div className='h-full w-full flex justify-center items-center'>
-            <Carousel className='h-full w-full bg-red-600'>
-                <CarouselContent className='h-full w-full bg-purple-600'>
+            <Carousel className={`h-full ${props.buttonEnabled ? 'lg:w-[90%] w-[80%]' : 'w-full'} `}>
+                <CarouselContent className='h-40 md:h-60 lg:h-72 space-x-2'>
                     {
                         props.list.map((pic, index) => (
                             <CarouselItem
                                 key={`carouselitem-${index}-${pic.label}`}
-                                className="basis-1/2 h-full" >
-                                <div className=' h-80 w-80'>
+                                className="h-full basis-1/2 lg:basis-1/5 flex items-center justify-center" >
+                                <div className='h-full w-full'>
                                     <LinkPic
                                         url={findUrl(pic.category)}
                                         picture={pic.path}

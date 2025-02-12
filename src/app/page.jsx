@@ -43,9 +43,10 @@ function Home() {
 							<Loading />
 						</div>
 					) : (
-						<div className='h-80 w-full'>
+						<div className='h-fit w-full'>
 							<CarouselCustom
-							list={picturesList} />
+							list={picturesList} 
+							buttonEnabled={true}/>
 						</div>
 					)
 				}
