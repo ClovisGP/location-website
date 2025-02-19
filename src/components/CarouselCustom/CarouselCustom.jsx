@@ -38,8 +38,8 @@ function CarouselCustom(props) {
 
     return (
         <div className='h-full w-full flex justify-center items-center'>
-            <Carousel className={`h-full ${props.buttonEnabled ? 'lg:w-[90%] w-[80%]' : 'w-full'} `}>
-                <CarouselContent className='h-40 md:h-60 lg:h-72 space-x-2'>
+            <Carousel className={`h-full ${props.buttonEnabled ? 'lg:w-[90%] w-[70%]' : 'w-full'} `}>
+                <CarouselContent className='h-36 md:h-60 lg:h-72 space-x-2'>
                     {
                         props.list.map((pic, index) => (
                             <CarouselItem

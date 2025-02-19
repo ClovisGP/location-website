@@ -3,20 +3,26 @@
 		"label": "Nom",
 		"status": "Statut",
 		"description": "Description",
-		"loading": "Chargement"
+		"loading": "Chargement",
+		"more": "Plus...",
+		"previsualisation": "Prévisualisation",
+		"illustration": "Illustration"
 	},
 	"home": {
 		"home": "Accueil",
-		"presentationText": "En plein coeur du Luberon à cinq kilomètres d'Apt, la capitale du fruit confit, c'est l'âme de la Provence qui se révèle à vous. Je loue ces Mas de caractère pour vos vacances afin de vous mettre en contact avec la nature et notre belle région. C'est ici que le soleil et moi-même vous accueillerons, dans ce havre de paix.\nViticulteur sur une petite exploitation de 7HA, je pourrais vous faire découvrir mon métier, issus d'un savoir-faire transmis de père en fils depuis plusieurs générations.\nJe porte une attention particulière à la décoration et aux aménagements de votre cadre de vacances dans le but de vous offrir tous les plus beaux présents que la Provence a à vous offrir."
+		"biographie": "En plein coeur du Luberon à cinq kilomètres d'Apt, la capitale du fruit confit, c'est l'âme de la Provence qui se révèle à vous. Je loue ces Mas de caractère pour vos vacances afin de vous mettre en contact avec la nature et notre belle région. C'est ici que le soleil et moi-même vous accueillerons, dans ce havre de paix.\nViticulteur sur une petite exploitation de 7HA, je pourrais vous faire découvrir mon métier, issus d'un savoir-faire transmis de père en fils depuis plusieurs générations.\nJe porte une attention particulière à la décoration et aux aménagements de votre cadre de vacances dans le but de vous offrir tous les plus beaux présents que la Provence a à vous offrir."
 	},
 	"bergerie": {
-		"label": "Bergerie"
+		"label": "Bergerie",
+		"description": "Cette ancienne bergerie du 17ème siècle spacieuse, authentique et son architecture de caractère typique Provençale accoudée à la montagne est en parfait accord avec la nature, entre forêt et montagne, c'est le coeur pittoresque de toute la Provence qui s'offre à vous."
 	},
 	"clos": {
-		"label": "Clos"
+		"label": "Clos",
+		"description": "Laissez vous tenter par cette maison individuelle et spacieuse de 240m², sa piscine, ses quatres chambres ainsi que sa décoration soignée. Vous séjournerez dans ce cadre naturel de forêt où règne la sérénité, à moins de 5km de la ville d'Apt et de ses commerces."
 	},
 	"mauragne": {
-		"label": "Mauragne"
+		"label": "Mauragne",
+		"description": "Magnifique propriété de 2400m² située dans un environnement de sous-bois typique du Luberon. Cette maison de 240m² composée de quatre chambres est idéale pour venir vous ressourcer au coeur d'une paisible campagne pourtant à 10 minutes du centre-ville d'Apt.\nPicine chauffée disponible suivant les périodes."
 	},
 	"pic-label": {
 		"test": "Test"

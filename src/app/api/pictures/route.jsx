@@ -30,7 +30,7 @@ export async function genList(directoryTargeted) {
                 if (isImageFile(file)) {
                     listToReturn.push(
                         {
-                            label: path.basename(file, path.extname(file)),
+                            label: path.basename(file, path.extname(file)).replace('&', ''),
                             category: path.basename(directoryTargeted),
                             path: fullPath.replace('public', '').replace('\\', '/')  //remove the public
                         }
