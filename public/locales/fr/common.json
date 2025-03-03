@@ -6,7 +6,10 @@
 		"loading": "Chargement",
 		"more": "Plus...",
 		"previsualisation": "Prévisualisation",
-		"illustration": "Illustration"
+		"illustration": "Illustration",
+		"indoor": "Intérieur:",
+		"outdoor": "Extérieur:",
+		"position": "Position géographique:"
 	},
 	"home": {
 		"home": "Accueil",
@@ -14,15 +17,24 @@
 	},
 	"bergerie": {
 		"label": "Bergerie",
-		"description": "Cette ancienne bergerie du 17ème siècle spacieuse, authentique et son architecture de caractère typique Provençale accoudée à la montagne est en parfait accord avec la nature, entre forêt et montagne, c'est le coeur pittoresque de toute la Provence qui s'offre à vous."
+		"welcome": "Bienvenue à la Bergerie:",
+		"description": "Cette ancienne bergerie du 17ème siècle spacieuse, authentique et son architecture de caractère typique Provençale accoudée à la montagne est en parfait accord avec la nature, entre forêt et montagne, c'est le coeur pittoresque de toute la Provence qui s'offre à vous.",
+		"descriptionIndoor": "Capacité: 7 personnes\nSurface habitable: 210m²\nNombre de pièces: 10\nChambres: 4 (4 lits)\nSalle d'eau: 1 (baignoire)\nWC: 1\nCuisine américaine: oui\nLave-vaisselle: oui\nLave-linge: oui\nTélévision: oui\nClimatisation: oui\nChauffage: électrique et 1 cheminée",
+		"descriptionOutdoor": "Terrain: 18 Hectares\nPiscine intérieure:\n- Dimension: 7m X 6m\n- Profondeur: De 1.30m à 1.80m\n- Sécurité: Clotûre\nTable de tennis de table: oui\nBarbecue: oui\n Mobilier extérieur: oui\nTerraces: 2\nParking: 2 places\nMise à disposition d'un 4x4 pour l'accès"
 	},
 	"clos": {
-		"label": "Clos",
-		"description": "Laissez vous tenter par cette maison individuelle et spacieuse de 240m², sa piscine, ses quatres chambres ainsi que sa décoration soignée. Vous séjournerez dans ce cadre naturel de forêt où règne la sérénité, à moins de 5km de la ville d'Apt et de ses commerces."
+		"label": "Rocaille",
+		"welcome": "Bienvenue au Mas de la Rocaille:",
+		"description": "Laissez vous tenter par cette maison individuelle et spacieuse de 240m², sa piscine, ses quatres chambres ainsi que sa décoration soignée. Vous séjournerez dans ce cadre naturel de forêt où règne la sérénité, à moins de 5km de la ville d'Apt et de ses commerces.",
+		"descriptionIndoor": "Capacité: 7 personnes\nSurface habitable: 240m²\nNombre de pièces: 6\nChambres: 4 (4 lits 160x200cm)\nSalle d'eau: 2 (1 douche - 1 baignoire)\nWC: 2\nCuisine américaine: oui\nLave-vaisselle: oui\nLave-linge: oui\nTélévision: oui\nInternet: oui\nClimatisation: oui\nChauffage: électrique et 1 cheminée",
+		"descriptionOutdoor": "Terrain: 2000m²\nPiscine:\n- Dimension: 10m X 4m\n- Profondeur: De 1.10m à 1.90m\n- Alarme: Oui\nTable de tennis de table: oui\nBarbecue: oui\n Mobilier extérieur: oui\nParking: 3 places"
 	},
 	"mauragne": {
 		"label": "Mauragne",
-		"description": "Magnifique propriété de 2400m² située dans un environnement de sous-bois typique du Luberon. Cette maison de 240m² composée de quatre chambres est idéale pour venir vous ressourcer au coeur d'une paisible campagne pourtant à 10 minutes du centre-ville d'Apt.\nPicine chauffée disponible suivant les périodes."
+		"welcome": "Bienvenue au Mas de Mauragne:",
+		"description": "Magnifique propriété de 2400m² située dans un environnement de sous-bois typique du Luberon. Cette maison de 240m² composée de quatre chambres est idéale pour venir vous ressourcer au coeur d'une paisible campagne pourtant à 10 minutes du centre-ville d'Apt.\nPicine chauffée disponible suivant les périodes.",
+		"descriptionIndoor": "Capacité: 6 personnes\nSurface habitable: 240m²\nNombre de pièces: 6\nChambres: 4 (4 lits)\nSalle d'eau: 2 (1 douche - 1 baignoire)\nWC: 2\nCuisine américaine: oui\nLave-vaisselle: oui\nLave-linge: oui\nTélévision: oui\nInternet: oui\nClimatisation: oui\nChauffage: électrique et 1 cheminée",
+		"descriptionOutdoor": "Terrain: 2000m²\nPiscine:\n- Dimension: 9m X 4m\n- Profondeur: De 1.10m à 1.90m\n- Alarme: Oui\n- Chauffage: Sur demande et suivant les saisons\nTable de tennis de table: oui\nBarbecue: oui\n Mobilier extérieur: oui\nParking: 2 places"
 	},
 	"pic-label": {
 		"test": "Test"

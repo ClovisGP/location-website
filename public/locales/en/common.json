@@ -1,28 +1,40 @@
 {
 	"common": {
-		"label": "Nom",
-		"status": "Statut",
+		"label": "Name",
+		"status": "Status",
 		"description": "Description",
-		"loading": "Chargement",
+		"loading": "Loading",
 		"more": "More...",
-		"previsualisation": "Previsualisation",
-		"illustration": "Illustration"
+		"previsualisation": "Preview",
+		"illustration": "Illustration",
+		"indoor": "Indoor:",
+		"outdoor": "Outdoor:",
+		"position": "Geographical Position:"
 	},
 	"home": {
-		"home": "Accueil",
-		"biographie": "En plein coeur du Luberon à cinq kilomètres d'Apt, la capitale du fruit confit, c'est l'âme de la Provence qui se révèle à vous. Je loue ces Mas de caractère pour vos vacances afin de vous mettre en contact avec la nature et notre belle région. C'est ici que le soleil et moi-même vous accueillerons, dans ce havre de paix.\nViticulteur sur une petite exploitation de 7HA, je pourrais vous faire découvrir mon métier, issus d'un savoir-faire transmis de père en fils depuis plusieurs générations.\nJe porte une attention particulière à la décoration et aux aménagements de votre cadre de vacances dans le but de vous offrir tous les plus beaux présents que la Provence a à vous offrir."
+		"home": "Home",
+		"biographie": "In the heart of the Luberon, five kilometers from Apt, the capital of candied fruit, the soul of Provence reveals itself to you. I rent these characterful Mas for your holidays to connect you with nature and our beautiful region. It is here that the sun and I will welcome you, in this haven of peace.\nA winemaker on a small 7-hectare estate, I can introduce you to my profession, a know-how passed down from father to son for several generations.\nI pay special attention to the decoration and arrangements of your holiday setting to offer you all the most beautiful gifts that Provence has to offer."
 	},
 	"bergerie": {
 		"label": "Bergerie",
-		"description": "Cette ancienne bergerie du 17ème siècle spacieuse, authentique et son architecture de caractère typique Provençale accoudée à la montagne est en parfait accord avec la nature, entre forêt et montagne, c'est le coeur pittoresque de toute la Provence qui s'offre à vous."
+		"welcome": "Welcome to the Bergerie:",
+		"description": "This spacious 17th-century former sheepfold, authentic with its typical Provençal character architecture leaning against the mountain, is in perfect harmony with nature. Between forest and mountain, the picturesque heart of all Provence is yours to enjoy.",
+		"descriptionIndoor": "Capacity: 7 people\nLiving area: 210m²\nNumber of rooms: 10\nBedrooms: 4 (4 beds)\nBathroom: 1 (bathtub)\nWC: 1\nOpen kitchen: yes\nDishwasher: yes\nWashing machine: yes\nTelevision: yes\nAir conditioning: yes\nHeating: electric and 1 fireplace",
+		"descriptionOutdoor": "Land: 18 hectares\nIndoor pool:\n- Size: 7m X 6m\n- Depth: From 1.30m to 1.80m\n- Safety: Fenced\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nTerraces: 2\nParking: 2 spaces\n4x4 vehicle available for access"
 	},
 	"clos": {
-		"label": "Clos",
-		"description": "Laissez vous tenter par cette maison individuelle et spacieuse de 240m², sa piscine, ses quatres chambres ainsi que sa décoration soignée. Vous séjournerez dans ce cadre naturel de forêt où règne la sérénité, à moins de 5km de la ville d'Apt et de ses commerces."
+		"label": "Rocaille",
+		"welcome": "Welcome to Mas de la Rocaille:",
+		"description": "Let yourself be tempted by this spacious 240m² detached house, its pool, its four bedrooms, and its refined decoration. You will stay in this natural forest setting where serenity reigns, less than 5km from the city of Apt and its shops.",
+		"descriptionIndoor": "Capacity: 7 people\nLiving area: 240m²\nNumber of rooms: 6\nBedrooms: 4 (4 beds 160x200cm)\nBathroom: 2 (1 shower - 1 bathtub)\nWC: 2\nOpen kitchen: yes\nDishwasher: yes\nWashing machine: yes\nTelevision: yes\nInternet: yes\nAir conditioning: yes\nHeating: electric and 1 fireplace",
+		"descriptionOutdoor": "Land: 2000m²\nPool:\n- Size: 10m X 4m\n- Depth: From 1.10m to 1.90m\n- Alarm: Yes\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nParking: 3 spaces"
 	},
 	"mauragne": {
 		"label": "Mauragne",
-		"description": "Magnifique propriété de 2400m² située dans un environnement de sous-bois typique du Luberon. Cette maison de 240m² composée de quatre chambres est idéale pour venir vous ressourcer au coeur d'une paisible campagne pourtant à 10 minutes du centre-ville d'Apt.\nPicine chauffée disponible suivant les périodes."
+		"welcome": "Welcome to Mas de Mauragne:",
+		"description": "Magnificent 2400m² property located in a typical Luberon woodland environment. This 240m² house with four bedrooms is ideal for recharging in the heart of a peaceful countryside, yet just 10 minutes from the center of Apt.\nHeated pool available depending on the season.",
+		"descriptionIndoor": "Capacity: 6 people\nLiving area: 240m²\nNumber of rooms: 6\nBedrooms: 4 (4 beds)\nBathroom: 2 (1 shower - 1 bathtub)\nWC: 2\nOpen kitchen: yes\nDishwasher: yes\nWashing machine: yes\nTelevision: yes\nInternet: yes\nAir conditioning: yes\nHeating: electric and 1 fireplace",
+		"descriptionOutdoor": "Land: 2000m²\nPool:\n- Size: 9m X 4m\n- Depth: From 1.10m to 1.90m\n- Alarm: Yes\n- Heating: On request and depending on the season\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nParking: 2 spaces"
 	},
 	"pic-label": {
 		"test": "Test"

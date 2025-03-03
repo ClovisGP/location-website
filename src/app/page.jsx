@@ -8,8 +8,8 @@ import RoutesList from '../routes/Routeslist';
 import CarouselCustom from '../components/CarouselCustom/CarouselCustom';
 import HousePrevisu from '../components/HousePrevisu/housePrevisu';
 import closPrevu from "@/public/images/locations/clos/garden&.jpg"
-import mauragnePrevu from "@/public/images/locations/mauragne/tesT.jpg"
-import bergeriePrevu from "@/public/images/locations/mauragne/tesT.jpg"
+import mauragnePrevu from "@/public/images/locations/mauragne/garden.JPG"
+import bergeriePrevu from "@/public/images/locations/mauragne/garden.JPG"
 import biographiePicA from "@/public/images/locations/grapes_vak.jpg"
 import biographiePicB from "@/public/images/locations/harvest_tractor.jpg"
 import biographiePicC from "@/public/images/locations/harvest.jpg"
