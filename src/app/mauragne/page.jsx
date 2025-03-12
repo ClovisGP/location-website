@@ -64,7 +64,7 @@ function MauragnePage() {
 											}
 										</div>
 									</div>
-									<div className='w-full h-fit space-y-5 md:space-y-0 md:flex md:flex-row md:justify-between md:items-center'>
+									<div className='w-full h-fit space-y-5 md:space-y-0 md:flex md:flex-row md:justify-between'>
 										{/* Indoor */}
 										<div className='w-full h-fit overflow-auto'>
 											<div className='w-full h-fit font-semibold'>

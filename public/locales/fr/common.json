@@ -37,6 +37,28 @@
 		"descriptionOutdoor": "Terrain: 2000m²\nPiscine:\n- Dimension: 9m X 4m\n- Profondeur: De 1.10m à 1.90m\n- Alarme: Oui\n- Chauffage: Sur demande et suivant les saisons\nTable de tennis de table: oui\nBarbecue: oui\n Mobilier extérieur: oui\nParking: 2 places"
 	},
 	"pic-label": {
-		"test": "Test"
+		"test": "Test",
+		"harvest": "Vendange",
+		"harvest_tractor": "Tracteur de vendange",
+		"grapes_vak": "Benne de raisins",
+		"barbecue": "Barbecue",
+		"bathroom": "Salle d'eau",
+		"bathroom1": "Première salle d'eau",
+		"bathroom2": "Deuxième salle d'eau",
+		"bed_room": "Chambre",
+		"bed_room1": "Première chambre",
+		"bed_room2": "Deuxième chambre",
+		"bed_room3": "Troisième chambre",
+		"bed_room4": "Quatrième chambre",
+		"garden": "Jardin",
+		"kitchen": "Cuisine",
+		"lavender_pool": "Piscine",
+		"pool": "Piscine",
+		"living_room": "Pièce de vie",
+		"main_entrance": "Entrée principale",
+		"poolhouse": "Poolhouse",
+		"terrace_pool": "Extérieur",
+		"dining_room": "Salle à manger",
+		"terrace": "Terrace extérieure"
 	}
 }

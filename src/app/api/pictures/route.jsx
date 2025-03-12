@@ -61,7 +61,7 @@ export async function GET(request) {
                          body: await genList(`./public/images/locations/${directory}/`) }
                 );
             else
-                return NextResponse.json({ error: 'Directory bod formatted.', status: 400 });
+                return NextResponse.json({ error: 'Directory bad formatted.', status: 400 });
         }
         return NextResponse.json(
             { status: 200,

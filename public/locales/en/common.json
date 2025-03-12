@@ -37,6 +37,28 @@
 		"descriptionOutdoor": "Land: 2000m²\nPool:\n- Size: 9m X 4m\n- Depth: From 1.10m to 1.90m\n- Alarm: Yes\n- Heating: On request and depending on the season\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nParking: 2 spaces"
 	},
 	"pic-label": {
-		"test": "Test"
+		"test": "Test",
+		"harvest": "Harvest",
+		"harvest_tractor": "Harvest's tractor",
+		"grapes_vak": "Vak of grapes",
+		"barbecue": "Barbecue",
+		"bathroom": "Bathromm",
+		"bathroom1": "First bathroom",
+		"bathroom2": "Second bathroom",
+		"bed_room": "Bedroom",
+		"bed_room1": "First bedroom",
+		"bed_room2": "Second bedroom",
+		"bed_room3": "Third bedroom",
+		"bed_room4": "Four bedroom",
+		"garden": "Garden",
+		"kitchen": "Kitchen",
+		"lavender_pool": "Pool",
+		"pool": "Pool",
+		"living_room": "Living room",
+		"main_entrance": "Main entrance",
+		"poolhouse": "Poolhouse",
+		"terrace_pool": "Outdoor",
+		"dining_room": "Dining room",
+		"terrace": "Terrace"
 	}
 }
