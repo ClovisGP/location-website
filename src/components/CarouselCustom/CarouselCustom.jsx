@@ -11,6 +11,7 @@ import {
     CarouselContent,
     CarouselPrevious
 } from '../ui/carousel'
+import Autoplay from "embla-carousel-autoplay"
 
 /**
  * This component is a carousel of pictures that you can use to navigate
@@ -38,7 +39,14 @@ function CarouselCustom(props) {
 
     return (
         <div className='h-full w-full flex justify-center items-center'>
-            <Carousel className={`h-full ${props.buttonEnabled ? 'lg:w-[90%] w-[70%]' : 'w-full'} `}>
+            <Carousel 
+            className={`h-full ${props.buttonEnabled ? 'lg:w-[90%] w-[70%]' : 'w-full'} `}
+            plugins={[
+                Autoplay({
+                  delay: 3000,
+                }),
+              ]}
+            >
                 <CarouselContent className='h-36 md:h-60 lg:h-72 space-x-2'>
                     {
                         props.list.map((pic, index) => (
