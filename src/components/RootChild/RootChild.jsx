@@ -22,6 +22,7 @@ import LanguagesSelector from '@/src/components/RootChild/LanguagesSelector/Lang
  * The component that contains the children of the RootLayout
  */
 function RootChild({ children }) {
+    const { t } = useTranslation();
 
     /**
      * Is the navigation menu is open
@@ -51,8 +52,19 @@ function RootChild({ children }) {
                 <div className='h-full w-fit'>
                     <Breadcrumb />
                 </div>
-                <div className='absolute right-16 h-full w-fit md:right-20'>
+                <div className='absolute right-10 h-fit w-fit md:right-20 flex items-center justify-between space-x-5'>
+                <div className='text-xs h-fit w-fit'>
+                    {
+                        t('common.contact')
+                    }
+                    :<br />
+                    {
+                        t("common.contactEmail")
+                    }
+                </div>
+                <div className='h-full w-fit'>
                     <LanguagesSelector />
+                </div>
                 </div>
             </div>
 

@@ -57,7 +57,7 @@ function CarouselCustom(props) {
                                     <LinkPic
                                         url={findUrl(pic.category)}
                                         picture={pic.path}
-                                        alt={pic.label}
+                                        alt={t(`${pic.category}.label`)}
                                         description={props.fullname ? `${t(`${pic.category}.label`)} - ${t(`pic-label.${pic.label.toLowerCase()}`)}` : t(`pic-label.${pic.label.toLowerCase()}`)}
                                     />
                                 </div>

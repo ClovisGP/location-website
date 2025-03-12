@@ -9,7 +9,9 @@
 		"illustration": "Illustration",
 		"indoor": "Indoor:",
 		"outdoor": "Outdoor:",
-		"position": "Geographical Position:"
+		"position": "Geographical Position:",
+		"contact": "Contact",
+		"contactEmail": "denis.gilles0321@orange.fr"
 	},
 	"home": {
 		"home": "Home",
