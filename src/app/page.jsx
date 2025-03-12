@@ -54,7 +54,8 @@ function Home() {
 							<div className='h-fit w-full'>
 								<CarouselCustom
 									list={picturesList}
-									buttonEnabled={true} />
+									buttonEnabled={true} 
+									fullname={true} />
 							</div>
 							<div className='w-full h-fit flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5'>
 								{/* Location's list */}

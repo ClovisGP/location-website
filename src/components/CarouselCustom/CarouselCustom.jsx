@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect } from 'react'
+import React from 'react'
 import LinkPic from '../LinkPic/LinkPic'
 import RoutesList from '@/src/routes/Routeslist'
 import { useTranslation } from 'react-i18next';
@@ -16,7 +16,7 @@ import Autoplay from "embla-carousel-autoplay"
 /**
  * This component is a carousel of pictures that you can use to navigate
  * @prop list - The list of object with a path, a category and a label
-
+ * @prop fullname - OPTIONAL Is the name of the picture is the fullname. By default no
  */
 function CarouselCustom(props) {
     const { t } = useTranslation();
@@ -58,7 +58,7 @@ function CarouselCustom(props) {
                                         url={findUrl(pic.category)}
                                         picture={pic.path}
                                         alt={pic.label}
-                                        description={t(`pic-label.${pic.label.toLowerCase()}`)}
+                                        description={props.fullname ? `${t(`${pic.category}.label`)} - ${t(`pic-label.${pic.label.toLowerCase()}`)}` : t(`pic-label.${pic.label.toLowerCase()}`)}
                                     />
                                 </div>
                             </CarouselItem>

@@ -16,7 +16,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
 	title: "Parceller",
 	description: "A solution to manage our deliveries.",
-	icons: { icon: '/lizardHead.ico', },
+	icons: { icon: '/icon.ico', },
 };
 
 async function RootLayout({ children }) {
