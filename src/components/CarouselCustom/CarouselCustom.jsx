@@ -65,14 +65,6 @@ function CarouselCustom(props) {
                         ))
                     }
                 </CarouselContent>
-                {
-                    props.buttonEnabled && (
-                        <>
-                            <CarouselPrevious />
-                            <CarouselNext />
-                        </>
-                    )
-                }
             </Carousel>
 
         </div>

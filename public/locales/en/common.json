@@ -11,7 +11,8 @@
 		"outdoor": "Outdoor:",
 		"position": "Geographical Position:",
 		"contact": "Contact",
-		"contactEmail": "denis.gilles0321@orange.fr"
+		"contactEmail": "denis.gilles0321@orange.fr",
+		"location": "Locations"
 	},
 	"home": {
 		"home": "Home",
@@ -25,14 +26,14 @@
 		"descriptionOutdoor": "Land: 18 hectares\nIndoor pool:\n- Size: 7m X 6m\n- Depth: From 1.30m to 1.80m\n- Safety: Fenced\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nTerraces: 2\nParking: 2 spaces\n4x4 vehicle available for access"
 	},
 	"clos": {
-		"label": "Rocaille",
+		"label": "Mas de la Rocaille",
 		"welcome": "Welcome to Mas de la Rocaille:",
 		"description": "Let yourself be tempted by this spacious 240m² detached house, its pool, its four bedrooms, and its refined decoration. You will stay in this natural forest setting where serenity reigns, less than 5km from the city of Apt and its shops.",
 		"descriptionIndoor": "Capacity: 7 people\nLiving area: 240m²\nNumber of rooms: 6\nBedrooms: 4 (4 beds 160x200cm)\nBathroom: 2 (1 shower - 1 bathtub)\nWC: 2\nOpen kitchen: yes\nDishwasher: yes\nWashing machine: yes\nTelevision: yes\nInternet: yes\nAir conditioning: yes\nHeating: electric and 1 fireplace",
 		"descriptionOutdoor": "Land: 2000m²\nPool:\n- Size: 10m X 4m\n- Depth: From 1.10m to 1.90m\n- Alarm: Yes\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nParking: 3 spaces"
 	},
 	"mauragne": {
-		"label": "Mauragne",
+		"label": "Mas de Mauragne",
 		"welcome": "Welcome to Mas de Mauragne:",
 		"description": "Magnificent 2400m² property located in a typical Luberon woodland environment. This 240m² house with four bedrooms is ideal for recharging in the heart of a peaceful countryside, yet just 10 minutes from the center of Apt.\nHeated pool available depending on the season.",
 		"descriptionIndoor": "Capacity: 6 people\nLiving area: 240m²\nNumber of rooms: 6\nBedrooms: 4 (4 beds)\nBathroom: 2 (1 shower - 1 bathtub)\nWC: 2\nOpen kitchen: yes\nDishwasher: yes\nWashing machine: yes\nTelevision: yes\nInternet: yes\nAir conditioning: yes\nHeating: electric and 1 fireplace",
