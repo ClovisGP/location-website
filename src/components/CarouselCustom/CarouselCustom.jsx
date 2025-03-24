@@ -40,19 +40,19 @@ function CarouselCustom(props) {
     return (
         <div className='h-full w-full flex justify-center items-center'>
             <Carousel 
-            className={`h-full ${props.buttonEnabled ? 'lg:w-[90%] w-[70%]' : 'w-full'} `}
+            className={`h-full w-full bg-red-500`}
             plugins={[
                 Autoplay({
                   delay: 3000,
                 }),
               ]}
             >
-                <CarouselContent className='h-36 md:h-60 lg:h-72 space-x-2'>
+                <CarouselContent className='h-full w-full min-h-full bg-blue-500'>
                     {
                         props.list.map((pic, index) => (
                             <CarouselItem
                                 key={`carouselitem-${index}-${pic.label}`}
-                                className="h-full basis-1/2 lg:basis-1/5 flex items-center justify-center" >
+                                className="h-full basis-1 flex items-center justify-center" >
                                 <div className='h-full w-full'>
                                     <LinkPic
                                         url={findUrl(pic.category)}

@@ -43,7 +43,7 @@ function Home() {
 
 	return (
 		<>
-			<div className="flex h-full w-full flex-col items-center px-2 py-2 space-y-6 md:space-y-16">
+			<div className="relative flex h-full w-full flex-col items-center px-2 py-2 space-y-6 md:space-y-16 ">
 				{
 					isLoading ? (
 						<div className=' h-80 md:h-96 w-full'>
@@ -51,10 +51,9 @@ function Home() {
 						</div>
 					) : (
 						<>
-							<div className='h-fit w-full'>
+							<div className='absolute right-1 left-1 bottom-1 top-1'>
 								<CarouselCustom
 									list={picturesList}
-									buttonEnabled={true} 
 									fullname={true} />
 							</div>
 						</>
