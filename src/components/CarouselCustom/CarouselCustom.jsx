@@ -15,6 +15,7 @@ import Autoplay from "embla-carousel-autoplay"
  * @prop list - The list of object with a path, a category and a label
  * @prop nameDisplayed - OPTIONAL, is the footer with the discription is displayed
  * @prop fullname - OPTIONAL Is the name of the picture is the fullname. By default no
+ * @prop time - OPTIONAL Is the time in milliseconds when the pictures change. By default, it is 5000.
  */
 function CarouselCustom(props) {
     const { t } = useTranslation();
@@ -25,7 +26,7 @@ function CarouselCustom(props) {
                 className={`h-full w-full `}
                 plugins={[
                     Autoplay({
-                        delay: 5000,
+                        delay: props.time ? props.time : 5000,
                     }),
                 ]}
             >

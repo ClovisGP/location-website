@@ -43,7 +43,7 @@ function Home() {
 
 	return (
 		<>
-			<div className="relative flex h-full w-full flex-col items-center ">
+			<div className="relative flex h-full w-full flex-col items-center bg-customGray">
 				{
 					isLoading ? (
 						<div className=' h-80 md:h-96 w-full'>

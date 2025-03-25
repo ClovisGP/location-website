@@ -41,77 +41,75 @@ function ClosPage() {
 						</div>
 					) : (
 						<>
-							<div className='h-fit w-full'>
-								<CarouselCustom
-									list={picturesList}
-									buttonEnabled={true} />
-							</div>
-							<div className='w-full h-fit flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5'>
-								{/* Left */}
-								<div className='w-full lg:w-[50%] h-fit space-y-5 py-1 px-1 md:py-2 md:px-5'>
-									{/* Description */}
-									<div className='w-full h-fit'>
-										<div className='w-full h-fit font-bold md:text-lg'>
-											{
-												t("clos.welcome")
-											}
-										</div>
-										<div className='w-full h-fit text-sm'>
-											{
-												t("clos.description").split("\n").map((line, index) => (
-													<p key={index}>{line}</p>
-												))
-											}
-										</div>
-									</div>
-									<div className='w-full h-fit space-y-5 md:space-y-0 md:flex md:flex-row md:justify-between'>
-										{/* Indoor */}
-										<div className='w-full h-fit overflow-auto'>
-											<div className='w-full h-fit font-semibold'>
-												{
-													t("common.indoor")
-												}
-											</div>
-											<div className='w-full h-fit text-sm'>
-												{
-													t("clos.descriptionIndoor").split("\n").map((line, index) => (
-														<p key={index}>{line}</p>
-													))
-												}
-											</div>
-										</div>
-										{/* Outdoor */}
-										<div className='w-full h-fit overflow-auto'>
-											<div className='w-full h-fit font-semibold'>
-												{
-													t("common.outdoor")
-												}
-											</div>
-											<div className='w-full h-fit text-sm'>
-												{
-													t("clos.descriptionOutdoor").split("\n").map((line, index) => (
-														<p key={index}>{line}</p>
-													))
-												}
-											</div>
-										</div>
-									</div>
-								</div>
-								{/* Right */}
-								<div className='w-full lg:w-[50%] h-fit space-y-2 py-1 px-1 md:py-2 md:px-5 md:space-y-4 lg:space-y-6'>
-									<div className='w-full h-fit font-semibold'>
+							<div className='w-full flex items-center justify-center flex-col h-fit space-y-5 lg:flex-row lg:space-y-0 lg:space-x-5 lg:items-start lg:justify-between'>
+								{/* Introduction */}
+								<div className='w-full h-fit lg:w-[40%]'>
+									<div className='w-full h-fit font-bold md:text-lg'>
 										{
-											t("common.position")
+											t("clos.welcome")
 										}
 									</div>
-									<div className='w-full h-fit flex items-center justify-center p-3'>
-										<iframe
-											className="w-[100%] h-64 md:h-80 rounded-lg shadow-lg"
-											src="https://www.google.com/maps/place/969+Rte+de+Bonnieux,+84400+Apt/@43.8696996,5.3720785,18z/data=!4m6!3m5!1s0x12ca1647457c2513:0x8be7fa8bbb4e015b!8m2!3d43.8694446!4d5.3722407!16s%2Fg%2F11c4m7mhhs?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
-											allowFullScreen
-											loading="lazy"
-										></iframe>
+									<div className='w-full h-fit text-sm px-2'>
+										{
+											t("clos.description").split("\n").map((line, index) => (
+												<p key={index}>{line}</p>
+											))
+										}
 									</div>
+								</div>
+								{/* Picture */}
+								<div className=' h-56 md:h-72 lg:h-96 w-full md:w-[70%] lg:w-[40%]'>
+									<CarouselCustom
+										list={picturesList}
+										nameDisplayed={true}
+										time={2000} />
+								</div>
+							</div>
+							<div className='w-full flex items-center justify-center flex-col h-fit space-y-5 md:flex-row md:space-x-5 md:space-y-0 md:items-start'>
+								{/* Indoor */}
+								<div className='w-full h-fit'>
+									<div className='w-full h-fit font-semibold'>
+										{
+											t("common.indoor")
+										}
+									</div>
+									<div className='w-full h-fit text-sm px-2'>
+										{
+											t("clos.descriptionIndoor").split("\n").map((line, index) => (
+												<p key={index}>{line}</p>
+											))
+										}
+									</div>
+								</div>
+								{/* Outdoor */}
+								<div className='w-full h-fit'>
+									<div className='w-full h-fit font-semibold'>
+										{
+											t("common.outdoor")
+										}
+									</div>
+									<div className='w-full h-fit text-sm px-2'>
+										{
+											t("clos.descriptionOutdoor").split("\n").map((line, index) => (
+												<p key={index}>{line}</p>
+											))
+										}
+									</div>
+								</div>
+							</div>
+							<div className='w-full h-fit space-y-2 '>
+								<div className='w-full h-fit font-semibold'>
+									{
+										t("common.position")
+									}
+								</div>
+								<div className='w-full lg:w-[60%] mx-auto h-fit flex items-center justify-center py-4 px-4 md:py-5 md:px-8'>
+									<iframe
+										className="w-[100%] h-56 md:h-72 lg:h-96 rounded-lg shadow-lg"
+										src="https://www.google.com/maps/place/969+Rte+de+Bonnieux,+84400+Apt/@43.8696996,5.3720785,18z/data=!4m6!3m5!1s0x12ca1647457c2513:0x8be7fa8bbb4e015b!8m2!3d43.8694446!4d5.3722407!16s%2Fg%2F11c4m7mhhs?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
+										allowFullScreen
+										loading="lazy"
+									></iframe>
 								</div>
 							</div>
 						</>

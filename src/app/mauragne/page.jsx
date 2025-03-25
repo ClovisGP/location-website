@@ -33,7 +33,7 @@ function MauragnePage() {
 
 	return (
 		<>
-			<div className="flex h-full w-full flex-col items-center px-2 py-2 space-y-6 md:space-y-16">
+			<div className="flex h-full w-full flex-col items-center px-2 py-2 lg:px-6 lg:py-4 space-y-5 md:space-y-16">
 				{
 					isLoading ? (
 						<div className=' h-80 md:h-96 w-full'>
@@ -41,83 +41,81 @@ function MauragnePage() {
 						</div>
 					) : (
 						<>
-							<div className='h-fit w-full'>
-								<CarouselCustom
-									list={picturesList}
-									buttonEnabled={true} />
-							</div>
-							<div className='w-full h-fit flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5'>
-								{/* Left */}
-								<div className='w-full lg:w-[50%] h-fit space-y-5 py-1 px-1 md:py-2 md:px-5'>
-									{/* Description */}
-									<div className='w-full h-fit'>
-										<div className='w-full h-fit font-bold md:text-lg'>
-											{
-												t("mauragne.welcome")
-											}
-										</div>
-										<div className='w-full h-fit text-sm'>
-											{
-												t("mauragne.description").split("\n").map((line, index) => (
-													<p key={index}>{line}</p>
-												))
-											}
-										</div>
-									</div>
-									<div className='w-full h-fit space-y-5 md:space-y-0 md:flex md:flex-row md:justify-between'>
-										{/* Indoor */}
-										<div className='w-full h-fit overflow-auto'>
-											<div className='w-full h-fit font-semibold'>
-												{
-													t("common.indoor")
-												}
-											</div>
-											<div className='w-full h-fit text-sm'>
-												{
-													t("mauragne.descriptionIndoor").split("\n").map((line, index) => (
-														<p key={index}>{line}</p>
-													))
-												}
-											</div>
-										</div>
-										{/* Outdoor */}
-										<div className='w-full h-fit overflow-auto'>
-											<div className='w-full h-fit font-semibold'>
-												{
-													t("common.outdoor")
-												}
-											</div>
-											<div className='w-full h-fit text-sm'>
-												{
-													t("mauragne.descriptionOutdoor").split("\n").map((line, index) => (
-														<p key={index}>{line}</p>
-													))
-												}
-											</div>
-										</div>
-									</div>
-								</div>
-								{/* Right */}
-								<div className='w-full lg:w-[50%] h-fit space-y-2 py-1 px-1 md:py-2 md:px-5 md:space-y-4 lg:space-y-6'>
-									<div className='w-full h-fit font-semibold'>
+							<div className='w-full flex items-center justify-center flex-col h-fit space-y-5 lg:flex-row lg:space-y-0 lg:space-x-5 lg:items-start lg:justify-between'>
+								{/* Introduction */}
+								<div className='w-full h-fit lg:w-[40%]'>
+									<div className='w-full h-fit font-bold md:text-lg'>
 										{
-											t("common.position")
+											t("mauragne.welcome")
 										}
 									</div>
-									<div className='w-full h-fit flex items-center justify-center p-3'>
-										<iframe
-											className="w-[100%] h-64 md:h-80 rounded-lg shadow-lg"
-											src="https://www.google.com/maps/place/969+Rte+de+Bonnieux,+84400+Apt/@43.869913,5.3693652,17z/data=!3m1!4b1!4m6!3m5!1s0x12ca16474b0a1eff:0x2d84dec43eb46b1e!8m2!3d43.8699092!4d5.3719401!16s%2Fg%2F11c1hz3_ks?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
-											allowFullScreen
-											loading="lazy"
-										></iframe>
+									<div className='w-full h-fit text-sm px-2'>
+										{
+											t("mauragne.description").split("\n").map((line, index) => (
+												<p key={index}>{line}</p>
+											))
+										}
 									</div>
+								</div>
+								{/* Picture */}
+								<div className=' h-56 md:h-72 lg:h-96 w-full md:w-[70%] lg:w-[40%]'>
+									<CarouselCustom
+										list={picturesList}
+										nameDisplayed={true}
+										time={2000} />
+								</div>
+							</div>
+							<div className='w-full flex items-center justify-center flex-col h-fit space-y-5 md:flex-row md:space-x-5 md:space-y-0 md:items-start'>
+								{/* Indoor */}
+								<div className='w-full h-fit'>
+									<div className='w-full h-fit font-semibold'>
+										{
+											t("common.indoor")
+										}
+									</div>
+									<div className='w-full h-fit text-sm px-2'>
+										{
+											t("mauragne.descriptionIndoor").split("\n").map((line, index) => (
+												<p key={index}>{line}</p>
+											))
+										}
+									</div>
+								</div>
+								{/* Outdoor */}
+								<div className='w-full h-fit'>
+									<div className='w-full h-fit font-semibold'>
+										{
+											t("common.outdoor")
+										}
+									</div>
+									<div className='w-full h-fit text-sm px-2'>
+										{
+											t("mauragne.descriptionOutdoor").split("\n").map((line, index) => (
+												<p key={index}>{line}</p>
+											))
+										}
+									</div>
+								</div>
+							</div>
+							<div className='w-full h-fit space-y-2 '>
+								<div className='w-full h-fit font-semibold'>
+									{
+										t("common.position")
+									}
+								</div>
+								<div className='w-full lg:w-[60%] mx-auto h-fit flex items-center justify-center py-4 px-4 md:py-5 md:px-8'>
+									<iframe
+										className="w-[100%] h-56 md:h-72 lg:h-96 rounded-lg shadow-lg"
+										src="https://www.google.com/maps/place/969+Rte+de+Bonnieux,+84400+Apt/@43.869913,5.3693652,17z/data=!3m1!4b1!4m6!3m5!1s0x12ca16474b0a1eff:0x2d84dec43eb46b1e!8m2!3d43.8699092!4d5.3719401!16s%2Fg%2F11c1hz3_ks?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
+										allowFullScreen
+										loading="lazy"
+									></iframe>
 								</div>
 							</div>
 						</>
 					)
 				}
-			</div>
+			</div >
 		</>
 	)
 }

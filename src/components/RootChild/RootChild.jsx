@@ -32,7 +32,7 @@ function RootChild({ children }) {
             {/* Body of a the page */}
             <div className={`w-full flex h-[90%] flex-row`}>
                 <div className={`flex h-full w-full overflow-hidden`}>
-                    <div className={`flex h-full w-full overflow-auto`}>
+                    <div className={`flex h-full w-full overflow-auto `}>
                         {children}
                     </div>
                 </div>
