@@ -1,5 +1,5 @@
 import React from 'react'
-import LinkPic from '../LinkPic/LinkPic';
+import LinkPic from '../DivPic/DivPic';
 import { useTranslation } from 'react-i18next';
 
 function HousePrevisu(props) {

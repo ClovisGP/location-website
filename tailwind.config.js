@@ -24,7 +24,7 @@ export const theme = {
             },
             "customGray": {
                 DEFAULT: 'hsl(var(--gray-base))',
-                alt: 'hsl(var(--gray-base))'
+                alt: 'hsl(var(--gray-alt))'
             },
             "customMauve": {
                 DEFAULT: 'hsl(var(--mauve-base))',

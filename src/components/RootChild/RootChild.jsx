@@ -20,7 +20,7 @@ function RootChild({ children }) {
         <div className="relative flex h-full w-full flex-col">
 
             {/* Header */}
-            <div className="relative flex h-[10%] w-full flex-wrap items-center justify-center bg-gray-600 px-3 py-0 text-base text-customBrown md:text-lg lg:text-base">
+            <div className="relative flex h-[10%] w-full flex-wrap items-center justify-center bg-customGray px-3 py-0 text-base text-customBrown md:text-lg lg:text-base">
                 <Navbar />
                 <div className='absolute right-2 h-fit w-fit md:right-10 flex items-center justify-between space-x-5'>
                     <div className='h-full w-fit'>

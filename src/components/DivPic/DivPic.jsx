@@ -3,17 +3,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 /**
- * This component is a link that contain a picture and a sentence. It is mainly used by CarouselCustom's component.
- * @prop url - The URL where it redirect
+ * This component is a div that contain a picture and a sentence. It is mainly used by CarouselCustom's component.
  * @prop picture - The imported picture to display
  * @prop alt - The alternative text to display if the image has a problem
  * @prop description - OPTIONAL The description displayed at the bottom of the image
  */
-function LinkPic(props) {
+function DivPic(props) {
     return (
-        <Link
+        <div
             className='relative block h-full w-full shadow-md shadow-customGray hover:shadow-lg hover:shadow-customGray'
-            href={props.url}
         >
             <Image
                 src={props.picture}
@@ -28,11 +26,11 @@ function LinkPic(props) {
                     </div>
                 )
             }
-        </Link>
+        </div>
     )
 }
 
-export default LinkPic;
+export default DivPic;
 
 /*
 Do you know the story of an optimistic guy?

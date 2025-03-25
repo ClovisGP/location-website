@@ -22,7 +22,7 @@ function NavDropdown() {
             {
                 isOpen &&
                 (
-                    <div className={`absolute top-14 lg:top-16 -left-16 bg-gray-600 shadow-lg rounded-md w-64 z-50 space-y-1 py-1`}>
+                    <div className={`absolute top-14 lg:top-16 -left-16 bg-customGray shadow-lg rounded-md w-64 z-50 space-y-1 py-1`}>
                         <Link
                             href={RoutesList.clos.path}
                             className='h-full w-fit hover:opacity-60 flex items-center justify-center px-2 text-customBrown-alt text-sm md:text-base'>
