@@ -1,6 +1,6 @@
-# Parceller - Front
+# Denis Gilles - Locations
 
-Welcome to the repository of the front of the Parceller's solution.
+Welcome to the repository of this website. It only aims to show some of the family rentals. It was made from another website that is also on this git account: *Parceller-front*.
 
 ## Table of Content
 - [The project](#the-project)
@@ -11,7 +11,7 @@ Welcome to the repository of the front of the Parceller's solution.
 - [Launch](#launch)
 
 ## The project
-This repository contains the website for the Parceller project, a solution aimed at managing deliveries for households. I developed this code in my free time, primarily to train myself in these technologies, but also to keep myself occupied, and of course, to have a tool for managing my parcel deliveries.
+This repository contains the website website to show some of the family rentals. It is only some design and the only server used is the one made by *Next.js 14* to load some picture.
 
 ## Installation
 ### Prerequisites
@@ -19,11 +19,7 @@ This repository contains the website for the Parceller project, a solution aimed
 ### Setup
 To setup the project, please follow this steps:
 1. Clone the project
-2. At the root of the project, create the ```.env``` file like the following example :
-    ```
-    NEXT_PUBLIC_EXPRESS_URL=[The USRL of the server - example: http://localhost:4000]
-    ```
-3. Next is to install the dependencies. In the root of the project, run ```npm install```.
+2. Next is to install the dependencies. In the root of the project, run ```npm install```.
 
 ## Development
 To run the project in development mode, you need to:

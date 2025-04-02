@@ -10,18 +10,18 @@ function Navbar() {
     const { t } = useTranslation();
 
     return (
-        <div className='flex items-center justify-center flex-row h-full py-5 space-x-2 md:space-x-5'>
+        <div className='flex h-full flex-row items-center justify-center space-x-2 py-5 md:space-x-5'>
             <Link
                 href={RoutesList.home.path}
-                className='h-full w-fit hover:opacity-60 flex items-center justify-center px-2 text-customBrown-alt text-base md:text-lg'>
+                className='flex h-full w-fit items-center justify-center px-2 text-base text-customBrown-alt hover:opacity-60 md:text-lg'>
                 {
                     t('home.home')
                 }
             </Link>
             <NavDropdown />
             <Link
-                href={RoutesList.home.path}
-                className='h-full w-fit hover:opacity-60 flex items-center justify-center px-2 text-customBrown-alt text-base md:text-lg'>
+                href={RoutesList.contact.path}
+                className='flex h-full w-fit items-center justify-center px-2 text-base text-customBrown-alt hover:opacity-60 md:text-lg'>
                 {
                     t('common.contact')
                 }

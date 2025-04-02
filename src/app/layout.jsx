@@ -14,8 +14,8 @@ import { ToastContainer } from 'react-toastify';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "Parceller",
-	description: "A solution to manage our deliveries.",
+	title: "Denis Gilles - Locations",
+	description: "A website to show my rentals.",
 	icons: { icon: '/icon.ico', },
 };
 

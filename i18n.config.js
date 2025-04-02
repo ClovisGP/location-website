@@ -2,8 +2,8 @@
  * The i18nConfig
  */
 const i18nConfig = {
-    locales: ['en', 'fr'],
-    defaultLocale:'en'
+    locales: ['fr', 'en'],
+    defaultLocale:'fr'
 }
 
 export default i18nConfig

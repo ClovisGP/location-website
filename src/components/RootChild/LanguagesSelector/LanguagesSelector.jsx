@@ -27,7 +27,7 @@ function LanguagesSelector(props) {
     }
 
     return (
-        <div className='flex h-full w-fit items-center space-x-3'>
+        <div className='flex h-full w-fit items-center space-x-3 md:space-x-5'>
             {i18nConfig.locales.map(language => (
                 <FlagButton
                     key={language}

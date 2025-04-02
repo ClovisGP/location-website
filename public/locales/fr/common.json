@@ -7,42 +7,68 @@
 		"more": "Plus...",
 		"previsualisation": "Prévisualisation",
 		"illustration": "Illustration",
-		"indoor": "Intérieur:",
-		"outdoor": "Extérieur:",
-		"position": "Position géographique:",
+		"indoor": "Intérieur :",
+		"outdoor": "Extérieur :",
+		"position": "Position géographique :",
 		"contact": "Contact",
-		"contactEmail": "denis.gilles0321@orange.fr"
+		"location": "Localisations",
+		"backgroundPic": "Image d'arrière-plan",
+		"moreInfo": "Site des activités de la ville d'Apt",
+		"websiteRight": " Denis GILLES, Tous droits réservés"
 	},
 	"home": {
 		"home": "Accueil",
-		"biographie": "En plein coeur du Luberon à cinq kilomètres d'Apt, la capitale du fruit confit, c'est l'âme de la Provence qui se révèle à vous. Je loue ces Mas de caractère pour vos vacances afin de vous mettre en contact avec la nature et notre belle région. C'est ici que le soleil et moi-même vous accueillerons, dans ce havre de paix.\nViticulteur sur une petite exploitation de 7HA, je pourrais vous faire découvrir mon métier, issus d'un savoir-faire transmis de père en fils depuis plusieurs générations.\nJe porte une attention particulière à la décoration et aux aménagements de votre cadre de vacances dans le but de vous offrir tous les plus beaux présents que la Provence a à vous offrir."
+		"welcome": "Trouvez la maison de vos rêves.",
+		"biographie": "Au cœur du Luberon, à cinq kilomètres d'Apt, capitale du fruit confit, l'âme de la Provence se révèle à vous. Je loue ces Mas de caractère pour vos vacances afin de vous connecter à la nature et à notre belle région. C'est ici que le soleil et moi vous accueillerons, dans ce havre de paix.\nViticulteur sur un petit domaine de 7 hectares, je peux vous faire découvrir mon métier, un savoir-faire transmis de père en fils depuis plusieurs générations.\nJ'apporte une attention particulière à la décoration et à l'aménagement de votre cadre de vacances pour vous offrir tous les plus beaux cadeaux que la Provence a à offrir."
 	},
 	"bergerie": {
 		"label": "Bergerie",
-		"welcome": "Bienvenue à la Bergerie:",
-		"description": "Cette ancienne bergerie du 17ème siècle spacieuse, authentique et son architecture de caractère typique Provençale accoudée à la montagne est en parfait accord avec la nature, entre forêt et montagne, c'est le coeur pittoresque de toute la Provence qui s'offre à vous.",
-		"descriptionIndoor": "Capacité: 7 personnes\nSurface habitable: 210m²\nNombre de pièces: 10\nChambres: 4 (4 lits)\nSalle d'eau: 1 (baignoire)\nWC: 1\nCuisine américaine: oui\nLave-vaisselle: oui\nLave-linge: oui\nTélévision: oui\nClimatisation: oui\nChauffage: électrique et 1 cheminée",
-		"descriptionOutdoor": "Terrain: 18 Hectares\nPiscine intérieure:\n- Dimension: 7m X 6m\n- Profondeur: De 1.30m à 1.80m\n- Sécurité: Clotûre\nTable de tennis de table: oui\nBarbecue: oui\n Mobilier extérieur: oui\nTerraces: 2\nParking: 2 places\nMise à disposition d'un 4x4 pour l'accès"
+		"welcome": "Bienvenue à la Bergerie :",
+		"description": "Cette ancienne bergerie du XVIIe siècle, spacieuse et authentique avec son architecture typique provençale adossée à la montagne, est en parfaite harmonie avec la nature. Entre forêt et montagne, le cœur pittoresque de toute la Provence s'offre à vous.",
+		"descriptionIndoor": "Capacité : 7 personnes\nSurface habitable : 210m²\nNombre de pièces : 10\nChambres : 4 (4 lits)\nSalle de bain : 1 (baignoire)\nWC : 1\nCuisine ouverte : oui\nLave-vaisselle : oui\nLave-linge : oui\nTélévision : oui\nClimatisation : oui\nChauffage : électrique et 1 cheminée",
+		"descriptionOutdoor": "Terrain : 18 hectares\nPiscine intérieure :\n- Taille : 7m X 6m\n- Profondeur : De 1,30m à 1,80m\n- Sécurité : Clôturée\nTable de ping-pong : oui\nBarbecue : oui\nMobilier d'extérieur : oui\nTerrasses : 2\nParking : 2 places\nVéhicule 4x4 disponible pour l'accès",
+		"descriptionGeo": "Supermarchés : 5 km\nGare routière : 4 km\nGare ferroviaire : 33 km (Cavaillon)\nGare TGV : 56 km (Avignon)"
 	},
 	"clos": {
-		"label": "Rocaille",
-		"welcome": "Bienvenue au Mas de la Rocaille:",
-		"description": "Laissez vous tenter par cette maison individuelle et spacieuse de 240m², sa piscine, ses quatres chambres ainsi que sa décoration soignée. Vous séjournerez dans ce cadre naturel de forêt où règne la sérénité, à moins de 5km de la ville d'Apt et de ses commerces.",
-		"descriptionIndoor": "Capacité: 7 personnes\nSurface habitable: 240m²\nNombre de pièces: 6\nChambres: 4 (4 lits 160x200cm)\nSalle d'eau: 2 (1 douche - 1 baignoire)\nWC: 2\nCuisine américaine: oui\nLave-vaisselle: oui\nLave-linge: oui\nTélévision: oui\nInternet: oui\nClimatisation: oui\nChauffage: électrique et 1 cheminée",
-		"descriptionOutdoor": "Terrain: 2000m²\nPiscine:\n- Dimension: 10m X 4m\n- Profondeur: De 1.10m à 1.90m\n- Alarme: Oui\nTable de tennis de table: oui\nBarbecue: oui\n Mobilier extérieur: oui\nParking: 3 places"
+		"label": "Mas de la Rocaille",
+		"welcome": "Bienvenue au Mas de la Rocaille :",
+		"description": "Laissez-vous tenter par cette maison individuelle spacieuse de 240m², sa piscine, ses quatre chambres et sa décoration raffinée. Vous séjournerez dans ce cadre forestier naturel où règne la sérénité, à moins de 5 km de la ville d'Apt et de ses commerces.",
+		"descriptionIndoor": "Capacité : 7 personnes\nSurface habitable : 240m²\nNombre de pièces : 6\nChambres : 4 (4 lits 160x200cm)\nSalle de bain : 2 (1 douche - 1 baignoire)\nWC : 2\nCuisine ouverte : oui\nLave-vaisselle : oui\nLave-linge : oui\nTélévision : oui\nInternet : oui\nClimatisation : oui\nChauffage : électrique et 1 cheminée",
+		"descriptionOutdoor": "Terrain : 2000m²\nPiscine :\n- Taille : 10m X 4m\n- Profondeur : De 1,10m à 1,90m\n- Alarme : Oui\nTable de ping-pong : oui\nBarbecue : oui\nMobilier d'extérieur : oui\nParking : 3 places",
+		"descriptionGeo": "Supermarchés : 5 km\nGare routière : 4 km\nGare ferroviaire : 33 km (Cavaillon)\nGare TGV : 56 km (Avignon)"
 	},
 	"mauragne": {
-		"label": "Mauragne",
-		"welcome": "Bienvenue au Mas de Mauragne:",
-		"description": "Magnifique propriété de 2400m² située dans un environnement de sous-bois typique du Luberon. Cette maison de 240m² composée de quatre chambres est idéale pour venir vous ressourcer au coeur d'une paisible campagne pourtant à 10 minutes du centre-ville d'Apt.\nPicine chauffée disponible suivant les périodes.",
-		"descriptionIndoor": "Capacité: 6 personnes\nSurface habitable: 240m²\nNombre de pièces: 6\nChambres: 4 (4 lits)\nSalle d'eau: 2 (1 douche - 1 baignoire)\nWC: 2\nCuisine américaine: oui\nLave-vaisselle: oui\nLave-linge: oui\nTélévision: oui\nInternet: oui\nClimatisation: oui\nChauffage: électrique et 1 cheminée",
-		"descriptionOutdoor": "Terrain: 2000m²\nPiscine:\n- Dimension: 9m X 4m\n- Profondeur: De 1.10m à 1.90m\n- Alarme: Oui\n- Chauffage: Sur demande et suivant les saisons\nTable de tennis de table: oui\nBarbecue: oui\n Mobilier extérieur: oui\nParking: 2 places"
+		"label": "Mas de Mauragne",
+		"welcome": "Bienvenue au Mas de Mauragne :",
+		"description": "Magnifique propriété de 2400m² située dans un cadre boisé typique du Luberon. Cette maison de 240m² avec quatre chambres est idéale pour se ressourcer au cœur d'une campagne paisible, tout en étant à seulement 10 minutes du centre d'Apt.\nPiscine chauffée disponible selon la saison.",
+		"descriptionIndoor": "Capacité : 6 personnes\nSurface habitable : 240m²\nNombre de pièces : 6\nChambres : 4 (4 lits)\nSalle de bain : 2 (1 douche - 1 baignoire)\nWC : 2\nCuisine ouverte : oui\nLave-vaisselle : oui\nLave-linge : oui\nTélévision : oui\nInternet : oui\nClimatisation : oui\nChauffage : électrique et 1 cheminée",
+		"descriptionOutdoor": "Terrain : 2000m²\nPiscine :\n- Taille : 9m X 4m\n- Profondeur : De 1,10m à 1,90m\n- Alarme : Oui\n- Chauffage : Sur demande et selon la saison\nTable de ping-pong : oui\nBarbecue : oui\nMobilier d'extérieur : oui\nParking : 2 places",
+		"descriptionGeo": "Supermarchés : 5 km\nGare routière : 4 km\nGare ferroviaire : 33 km (Cavaillon)\nGare TGV : 56 km (Avignon)"
+	},
+	"contact": {
+		"contactUs": "Me contacter",
+		"email": "Adresse e-mail",
+		"name": "Nom",
+		"phone": "Numéro de téléphone"
+	},
+	"legalMention": {
+		"legalMention": "Mentions légales",
+		"siteEditor": "Éditeur du site",
+		"siteEditorText": "test\ntest\ntes\n",
+		"siteHost": "Hébergeur du site",
+		"siteHostText": "test\ntest\ntes\n",
+		"intellectualProperty": "Propriété intellectuelle",
+		"intellectualPropertyText": "L'ensemble du contenu de ce site, incluant les textes, images et éventuels éléments multimédias, est protégé par les lois sur la propriété intellectuelle. Toute reproduction ou utilisation sans autorisation est interdite.",
+		"responsibility": "Responsabilité",
+		"responsibilityText": "L'éditeur s'efforce de fournir des informations exactes et à jour sur les locations proposées, mais ne peut garantir l'exactitude ou l'exhaustivité des informations. Il ne saurait être tenu responsable des erreurs, omissions ou indisponibilités du site.",
+		"personalData": "Données personnelles",
+		"personalDataText": "Ce site ne collecte aucune donnée et n'utilise pas de cookies."
 	},
 	"pic-label": {
 		"test": "Test",
 		"harvest": "Vendange",
 		"harvest_tractor": "Tracteur de vendange",
-		"grapes_vak": "Benne de raisins",
+		"grapes_vat": "Benne de raisins",
 		"barbecue": "Barbecue",
 		"bathroom": "Salle d'eau",
 		"bathroom1": "Première salle d'eau",
@@ -56,11 +82,15 @@
 		"kitchen": "Cuisine",
 		"lavender_pool": "Piscine",
 		"pool": "Piscine",
-		"living_room": "Pièce de vie",
+		"living_room": "Salon",
 		"main_entrance": "Entrée principale",
 		"poolhouse": "Poolhouse",
-		"terrace_pool": "Extérieur",
+		"terrace_pool": "Exterieur",
 		"dining_room": "Salle à manger",
-		"terrace": "Terrace extérieure"
+		"terrace": "Terrace",
+		"foret_des_cedres": "Forêt des cèdres",
+		"robin_bird": "Un rouge-gorge",
+		"rock_lizard": "Un lézard",
+		"sivergue_waterfall": "Cascade d'eau près de Sivergue"
 	}
 }

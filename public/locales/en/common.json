@@ -11,12 +11,14 @@
 		"outdoor": "Outdoor:",
 		"position": "Geographical Position:",
 		"contact": "Contact",
-		"contactEmail": "denis.gilles0321@orange.fr",
-		"location": "Locations"
+		"location": "Rentals",
+		"backgroundPic": "Background's picture",
+		"moreInfo": "Website of the Apt's activities",
+		"websiteRight": " Denis GILLES, All rights reserved"
 	},
 	"home": {
 		"home": "Home",
-		"welcome": "Find the location house of your dream.",
+		"welcome": "Find the rental house of your dream.",
 		"biographie": "In the heart of the Luberon, five kilometers from Apt, the capital of candied fruit, the soul of Provence reveals itself to you. I rent these characterful Mas for your holidays to connect you with nature and our beautiful region. It is here that the sun and I will welcome you, in this haven of peace.\nA winemaker on a small 7-hectare estate, I can introduce you to my profession, a know-how passed down from father to son for several generations.\nI pay special attention to the decoration and arrangements of your holiday setting to offer you all the most beautiful gifts that Provence has to offer."
 	},
 	"bergerie": {
@@ -24,36 +26,58 @@
 		"welcome": "Welcome to the Bergerie:",
 		"description": "This spacious 17th-century former sheepfold, authentic with its typical Provençal character architecture leaning against the mountain, is in perfect harmony with nature. Between forest and mountain, the picturesque heart of all Provence is yours to enjoy.",
 		"descriptionIndoor": "Capacity: 7 people\nLiving area: 210m²\nNumber of rooms: 10\nBedrooms: 4 (4 beds)\nBathroom: 1 (bathtub)\nWC: 1\nOpen kitchen: yes\nDishwasher: yes\nWashing machine: yes\nTelevision: yes\nAir conditioning: yes\nHeating: electric and 1 fireplace",
-		"descriptionOutdoor": "Land: 18 hectares\nIndoor pool:\n- Size: 7m X 6m\n- Depth: From 1.30m to 1.80m\n- Safety: Fenced\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nTerraces: 2\nParking: 2 spaces\n4x4 vehicle available for access"
+		"descriptionOutdoor": "Land: 18 hectares\nIndoor pool:\n- Size: 7m X 6m\n- Depth: From 1.30m to 1.80m\n- Safety: Fenced\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nTerraces: 2\nParking: 2 spaces\n4x4 vehicle available for access",
+		"descriptionGeo": "Supermarkets: 5 km\nBus station: 4 km\nTrain station: 33 km (Cavaillon)\nTGV station: 56 km (Avignon)"
 	},
 	"clos": {
 		"label": "Mas de la Rocaille",
 		"welcome": "Welcome to Mas de la Rocaille:",
 		"description": "Let yourself be tempted by this spacious 240m² detached house, its pool, its four bedrooms, and its refined decoration. You will stay in this natural forest setting where serenity reigns, less than 5km from the city of Apt and its shops.",
 		"descriptionIndoor": "Capacity: 7 people\nLiving area: 240m²\nNumber of rooms: 6\nBedrooms: 4 (4 beds 160x200cm)\nBathroom: 2 (1 shower - 1 bathtub)\nWC: 2\nOpen kitchen: yes\nDishwasher: yes\nWashing machine: yes\nTelevision: yes\nInternet: yes\nAir conditioning: yes\nHeating: electric and 1 fireplace",
-		"descriptionOutdoor": "Land: 2000m²\nPool:\n- Size: 10m X 4m\n- Depth: From 1.10m to 1.90m\n- Alarm: Yes\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nParking: 3 spaces"
+		"descriptionOutdoor": "Land: 2000m²\nPool:\n- Size: 10m X 4m\n- Depth: From 1.10m to 1.90m\n- Alarm: Yes\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nParking: 3 spaces",
+		"descriptionGeo": "Supermarkets: 5 km\nBus station: 4 km\nTrain station: 33 km (Cavaillon)\nTGV station: 56 km (Avignon)"
 	},
 	"mauragne": {
 		"label": "Mas de Mauragne",
 		"welcome": "Welcome to Mas de Mauragne:",
 		"description": "Magnificent 2400m² property located in a typical Luberon woodland environment. This 240m² house with four bedrooms is ideal for recharging in the heart of a peaceful countryside, yet just 10 minutes from the center of Apt.\nHeated pool available depending on the season.",
 		"descriptionIndoor": "Capacity: 6 people\nLiving area: 240m²\nNumber of rooms: 6\nBedrooms: 4 (4 beds)\nBathroom: 2 (1 shower - 1 bathtub)\nWC: 2\nOpen kitchen: yes\nDishwasher: yes\nWashing machine: yes\nTelevision: yes\nInternet: yes\nAir conditioning: yes\nHeating: electric and 1 fireplace",
-		"descriptionOutdoor": "Land: 2000m²\nPool:\n- Size: 9m X 4m\n- Depth: From 1.10m to 1.90m\n- Alarm: Yes\n- Heating: On request and depending on the season\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nParking: 2 spaces"
+		"descriptionOutdoor": "Land: 2000m²\nPool:\n- Size: 9m X 4m\n- Depth: From 1.10m to 1.90m\n- Alarm: Yes\n- Heating: On request and depending on the season\nTable tennis: yes\nBarbecue: yes\nOutdoor furniture: yes\nParking: 2 spaces",
+		"descriptionGeo": "Supermarkets: 5 km\nBus station: 4 km\nTrain station: 33 km (Cavaillon)\nTGV station: 56 km (Avignon)"
+	},
+	"contact": {
+		"contactUs": "Contact me",
+		"email": "Email address",
+		"name": "Name",
+		"phone": "Phone number"
+	},
+	"legalMention": {
+		"legalMention": "Legal Mentions",
+		"siteEditor": "Website Editor",
+		"siteEditorText": "test\ntest\ntes\n",
+		"siteHost": "Website Host",
+		"siteHostText": "test\ntest\ntes\n",
+		"intellectualProperty": "Intellectual property",
+		"intellectualPropertyText": "All content on this site, including texts, images, and possible multimedia elements, is protected by intellectual property laws. Any reproduction or use without authorization is prohibited.",
+		"responsibility": "Responsibility",
+		"responsibilityText": "The publisher strives to provide accurate and up-to-date information on the proposed rentals but cannot guarantee the accuracy or completeness of the information. It cannot be held responsible for errors, omissions, or unavailability of the site.",
+		"personalData": "Personal data",
+		"personalDataText": "This site does not collect any data and does not use cookies."
 	},
 	"pic-label": {
 		"test": "Test",
 		"harvest": "Harvest",
-		"harvest_tractor": "Harvest's tractor",
-		"grapes_vak": "Vak of grapes",
+		"harvest_tractor": "Harvest tractor",
+		"grapes_vat": "Vat of grapes",
 		"barbecue": "Barbecue",
-		"bathroom": "Bathromm",
+		"bathroom": "Bathroom",
 		"bathroom1": "First bathroom",
 		"bathroom2": "Second bathroom",
 		"bed_room": "Bedroom",
 		"bed_room1": "First bedroom",
 		"bed_room2": "Second bedroom",
 		"bed_room3": "Third bedroom",
-		"bed_room4": "Four bedroom",
+		"bed_room4": "Fourth bedroom",
 		"garden": "Garden",
 		"kitchen": "Kitchen",
 		"lavender_pool": "Pool",
@@ -63,6 +87,10 @@
 		"poolhouse": "Poolhouse",
 		"terrace_pool": "Outdoor",
 		"dining_room": "Dining room",
-		"terrace": "Terrace"
+		"terrace": "Terrace",
+		"foret_des_cedres": "Cedar Forest",
+		"robin_bird": "A robin bird",
+		"rock_lizard": "A lizard",
+		"sivergue_waterfall": "A forest waterfall"
 	}
 }

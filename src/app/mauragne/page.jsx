@@ -5,6 +5,7 @@ import Loading from '../loading';
 import React, { useEffect, useState } from 'react'
 import CarouselCustom from '@/src/components/CarouselCustom/CarouselCustom';
 import ServicesHelper from '@/src/utils/helpers/ServicesHelper';
+import Link from 'next/link';
 
 function MauragnePage() {
 	const { t } = useTranslation();
@@ -33,83 +34,159 @@ function MauragnePage() {
 
 	return (
 		<>
-			<div className="flex h-full w-full flex-col items-center px-2 py-2 lg:px-6 lg:py-4 space-y-5 md:space-y-16">
+			<div className="flex h-full w-full flex-col items-center space-y-5 px-2 py-2 md:space-y-10 lg:px-6 lg:py-4">
 				{
 					isLoading ? (
-						<div className=' h-80 md:h-96 w-full'>
+						<div className='h-80 w-full md:h-96'>
 							<Loading />
 						</div>
 					) : (
 						<>
-							<div className='w-full flex items-center justify-center flex-col h-fit space-y-5 lg:flex-row lg:space-y-0 lg:space-x-5 lg:items-start lg:justify-between'>
+							<div className='flex h-fit w-full flex-col items-center justify-center space-y-5 border-customBrown md:flex-row md:items-start md:justify-between md:space-x-5 md:space-y-0 lg:border-l-2 lg:p-2'>
 								{/* Introduction */}
-								<div className='w-full h-fit lg:w-[40%]'>
-									<div className='w-full h-fit font-bold md:text-lg'>
+								<div className='flex h-fit w-full flex-col space-y-2 md:w-[40%]'>
+									<div className='h-fit w-full text-lg font-bold'>
 										{
 											t("mauragne.welcome")
 										}
 									</div>
-									<div className='w-full h-fit text-sm px-2'>
+									<div className='h-fit w-full px-2 text-sm'>
 										{
 											t("mauragne.description").split("\n").map((line, index) => (
 												<p key={index}>{line}</p>
 											))
 										}
 									</div>
+									<div className='hidden h-fit w-full flex-row items-start justify-center space-x-5 space-y-0 px-2 lg:flex'>
+										{/* Indoor */}
+										<div className='flex h-fit w-full flex-col space-y-2'>
+											<div className='h-fit w-full font-semibold'>
+												{
+													t("common.indoor")
+												}
+											</div>
+											<div className='h-fit w-full text-sm'>
+												{
+													t("mauragne.descriptionIndoor").split("\n").map((line, index) => (
+														<p
+															key={index}
+															className='w-fit border-l-2 border-customBrown px-2'
+														>
+															{line}
+														</p>
+													))
+												}
+											</div>
+										</div>
+										{/* Outdoor */}
+										<div className='flex h-fit w-full flex-col space-y-2'>
+											<div className='h-fit w-full font-semibold'>
+												{
+													t("common.outdoor")
+												}
+											</div>
+											<div className='h-fit w-full text-sm'>
+												{
+													t("mauragne.descriptionOutdoor").split("\n").map((line, index) => (
+														<p
+															key={index}
+															className='w-fit border-l-2 border-customBrown px-2'
+														>
+															{line}
+														</p>
+													))
+												}
+											</div>
+										</div>
+									</div>
 								</div>
 								{/* Picture */}
-								<div className=' h-56 md:h-72 lg:h-96 w-full md:w-[70%] lg:w-[40%]'>
+								<div className='h-56 w-full md:h-72 md:w-[50%] lg:h-[100%] lg:min-h-96 lg:w-[45%]'>
 									<CarouselCustom
 										list={picturesList}
 										nameDisplayed={true}
 										time={2000} />
 								</div>
 							</div>
-							<div className='w-full flex items-center justify-center flex-col h-fit space-y-5 md:flex-row md:space-x-5 md:space-y-0 md:items-start'>
+							<div className='flex h-fit w-full flex-col items-center justify-center space-y-5 md:flex-row md:items-start md:space-x-5 md:space-y-0 lg:hidden'>
 								{/* Indoor */}
-								<div className='w-full h-fit'>
-									<div className='w-full h-fit font-semibold'>
+								<div className='flex h-fit w-full flex-col space-y-2'>
+									<div className='h-fit w-full font-semibold'>
 										{
 											t("common.indoor")
 										}
 									</div>
-									<div className='w-full h-fit text-sm px-2'>
+									<div className='h-fit w-full text-sm'>
 										{
 											t("mauragne.descriptionIndoor").split("\n").map((line, index) => (
-												<p key={index}>{line}</p>
+												<p
+													key={index}
+													className='w-fit border-l-2 border-customBrown px-2'
+												>
+													{line}
+												</p>
 											))
 										}
 									</div>
 								</div>
 								{/* Outdoor */}
-								<div className='w-full h-fit'>
-									<div className='w-full h-fit font-semibold'>
+								<div className='flex h-fit w-full flex-col space-y-2'>
+									<div className='h-fit w-full font-semibold'>
 										{
 											t("common.outdoor")
 										}
 									</div>
-									<div className='w-full h-fit text-sm px-2'>
+									<div className='h-fit w-full text-sm'>
 										{
 											t("mauragne.descriptionOutdoor").split("\n").map((line, index) => (
-												<p key={index}>{line}</p>
+												<p
+													key={index}
+													className='w-fit border-l-2 border-customBrown px-2'
+												>
+													{line}
+												</p>
 											))
 										}
 									</div>
 								</div>
 							</div>
-							<div className='w-full h-fit space-y-2 '>
-								<div className='w-full h-fit font-semibold'>
+							<div className='h-fit w-full space-y-2 pb-2'>
+								<div className='h-fit w-full font-semibold'>
 									{
 										t("common.position")
 									}
 								</div>
-								<div className='w-full lg:w-[60%] mx-auto h-fit flex items-center justify-center py-4 px-4 md:py-5 md:px-8'>
-									<iframe
-										className="w-[100%] h-56 md:h-72 lg:h-96 rounded-lg shadow-lg"
-										src="https://www.google.com/maps/place/969+Rte+de+Bonnieux,+84400+Apt/@43.869913,5.3693652,17z/data=!3m1!4b1!4m6!3m5!1s0x12ca16474b0a1eff:0x2d84dec43eb46b1e!8m2!3d43.8699092!4d5.3719401!16s%2Fg%2F11c1hz3_ks?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
-										allowFullScreen
-										loading="lazy"
-									></iframe>
+								<div className='flex h-fit w-full items-start justify-center border-l-2 border-customBrown p-2 md:justify-between md:space-x-5'>
+									<div className='hidden h-fit w-[45%] text-sm md:flex md:flex-col'>
+										{
+											t("mauragne.descriptionGeo").split("\n").map((line, index) => (
+												<p
+													key={index}
+													className='w-fit'
+												>
+													{line}
+												</p>
+											))
+										}
+										<br />
+										<p className='w-fit' >
+											<u>
+												<Link href="https://www.luberon-apt.fr/">
+													{
+														t("common.moreInfo")
+													}
+												</Link>
+											</u>
+										</p>
+									</div>
+									<div className='flex h-fit w-full items-center justify-center md:w-[50%] lg:w-[45%]'>
+										<iframe
+											className="h-56 w-[100%] rounded-lg shadow-lg md:h-full md:min-h-96"
+											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.685999277775!2d5.371940100000001!3d43.869909199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ca16474b0a1eff%3A0x2d84dec43eb46b1e!2s969%20Rte%20de%20Bonnieux%2C%2084400%20Apt!5e1!3m2!1sfr!2sfr!4v1742980622695!5m2!1sfr!2sfr"
+											allowFullScreen
+											loading="lazy"
+										></iframe>
+									</div>
 								</div>
 							</div>
 						</>
