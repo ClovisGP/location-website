@@ -3,7 +3,6 @@
 import { useTranslation } from 'react-i18next';
 import React from 'react'
 import DivPic from '@/src/components/DivPic/DivPic';
-import background from "@/public/images/locations/presentation/sivergue_waterfall.jpg"
 
 function ContactPage() {
     const { t } = useTranslation();
@@ -13,7 +12,7 @@ function ContactPage() {
             <div className="relative flex h-full w-full flex-col items-center px-2 justify-center">
                 <div className='absolute bottom-0 left-0 right-0 top-0 -z-10'>
                     <DivPic
-                        picture={background}
+                        picture={"/images/locations/presentation/sivergue_waterfall.jpg"}
                         alt={t('common.backgroundPic')}
                     />
                 </div>

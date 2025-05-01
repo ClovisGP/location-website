@@ -7,29 +7,24 @@ import CarouselCustom from '@/src/components/CarouselCustom/CarouselCustom';
 import Link from 'next/link'
 import shuffleArray from '@/src/utils/helpers/OtherHelper';
 
-import imgKitchen from "@/public/images/locations/bergerie/kitchen.jpg"
-import imgOutdoor from "@/public/images/locations/bergerie/outdoor.jpg"
-import imgOutdoor2 from "@/public/images/locations/bergerie/outdoor&.jpg"
-import imgterrace from "@/public/images/locations/bergerie/terrace.jpg"
-
 function BergeriePage() {
 	const { t } = useTranslation();
 	const [picturesList, setPicturesList] = useState([
 		{
 			label: 'pic-label.kitchen',
-			img: imgKitchen
+			img: "/images/locations/bergerie/kitchen.jpg"
 		},
 		{
 			label: 'pic-label.outdoor',
-			img: imgOutdoor
+			img: "/images/locations/bergerie/outdoor.jpg"
 		},
 		{
 			label: 'pic-label.outdoor',
-			img: imgOutdoor2
+			img: "/images/locations/bergerie/outdoor&.jpg"
 		},
 		{
 			label: 'pic-label.terrace',
-			img: imgterrace
+			img: "/images/locations/bergerie/terrace.jpg"
 		}
 	]);
 	const [isLoading, setIsLoading] = useState(true);

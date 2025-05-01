@@ -7,48 +7,41 @@ import CarouselCustom from '../components/CarouselCustom/CarouselCustom';
 import SVGText from '../components/SVGComponents/SVGText';
 import shuffleArray from '@/src/utils/helpers/OtherHelper';
 
-import imgforet_des_cedres from "@/public/images/locations/presentation/foret_des_cedres.jpg"
-import imggrapes_vak from "@/public/images/locations/presentation/grapes_vak.jpg"
-import imgharvest_tractor from "@/public/images/locations/presentation/harvest_tractor.jpg"
-import imgrobin_bird from "@/public/images/locations/presentation/robin_bird.jpg"
-import imgrock_lizard from "@/public/images/locations/presentation/rock_lizard.jpg"
-import imgsivergue_waterfall from "@/public/images/locations/presentation/sivergue_waterfall.jpg"
-
 function Home() {
 	const { t } = useTranslation();
 	const [picturesList, setPicturesList] = useState([
-			{
-				label: "pic-label.foret_des_cedres",
-				img: imgforet_des_cedres
-			},
-			{
-				label: "pic-label.grapes_vak",
-				img: imggrapes_vak
-			},
-			{
-				label: "pic-label.harvest_tractor",
-				img: imgharvest_tractor
-			},
-			{
-				label: "pic-label.robin_bird",
-				img: imgrobin_bird
-			},
-			{
-				label: "pic-label.rock_lizard",
-				img: imgrock_lizard
-			},
-			{
-				label: "pic-label.sivergue_waterfall",
-				img: imgsivergue_waterfall
-			}
-		]);
+		{
+			label: "pic-label.foret_des_cedres",
+			img: "/images/locations/presentation/foret_des_cedres.jpg"
+		},
+		{
+			label: "pic-label.grapes_vak",
+			img: "/images/locations/presentation/grapes_vak.jpg"
+		},
+		{
+			label: "pic-label.harvest_tractor",
+			img: "/images/locations/presentation/harvest_tractor.jpg"
+		},
+		{
+			label: "pic-label.robin_bird",
+			img: "/images/locations/presentation/robin_bird.jpg"
+		},
+		{
+			label: "pic-label.rock_lizard",
+			img: "/images/locations/presentation/rock_lizard.jpg"
+		},
+		{
+			label: "pic-label.sivergue_waterfall",
+			img: "/images/locations/presentation/sivergue_waterfall.jpg"
+		}
+	]);
 	const [isLoading, setIsLoading] = useState(true);
 	const [textDisplayed, setTextDisplayed] = useState(true);
 
 	async function shufflePictures() {
 		try {
 			setIsLoading(true);
-			
+
 			setPicturesList(shuffleArray(picturesList))
 		} catch (error) {
 			console.error("An error was caught in shufflePictures", error);

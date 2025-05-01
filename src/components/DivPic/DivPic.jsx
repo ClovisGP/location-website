@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
-import Link from 'next/link';
 
 /**
  * This component is a div that contain a picture and a sentence. It is mainly used by CarouselCustom's component.
@@ -13,7 +11,7 @@ function DivPic(props) {
         <div
             className='relative block h-full w-full shadow-md shadow-customGray hover:shadow-lg hover:shadow-customGray'
         >
-            <Image
+            <img
                 src={props.picture}
                 alt={props.alt}
                 fill

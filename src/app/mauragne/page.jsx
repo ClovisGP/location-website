@@ -7,81 +7,66 @@ import CarouselCustom from '@/src/components/CarouselCustom/CarouselCustom';
 import Link from 'next/link';
 import shuffleArray from '@/src/utils/helpers/OtherHelper';
 
-import imgbarbecue from "@/public/images/locations/mauragne/barbecue.jpg"
-import imgbathroom from "@/public/images/locations/mauragne/bathroom.jpg"
-import imgbed_room1 from "@/public/images/locations/mauragne/bed_room1.jpg"
-import imgbed_room2 from "@/public/images/locations/mauragne/bed_room2.jpg"
-import imgbed_room3 from "@/public/images/locations/mauragne/bed_room3.jpg"
-import imgbed_room4 from "@/public/images/locations/mauragne/bed_room4.jpg"
-import imggarden from "@/public/images/locations/mauragne/garden.jpg"
-import imggarden2 from "@/public/images/locations/mauragne/garden&.jpg"
-import imgkitchen from "@/public/images/locations/mauragne/lavender_pool.jpg"
-import imgliving_room from "@/public/images/locations/mauragne/living_room.jpg"
-import imgliving_room2 from "@/public/images/locations/mauragne/living_room&.jpg"
-import imgmain_entrance from "@/public/images/locations/mauragne/main_entrance.jpg"
-import imgpoolhouse from "@/public/images/locations/mauragne/poolhouse.jpg"
-import imgterrace from "@/public/images/locations/mauragne/terrace_pool.jpg"
-
 function MauragnePage() {
 	const { t } = useTranslation();
 	const [picturesList, setPicturesList] = useState([
-			{
-				label: "pic-label.barbecue",
-				img: imgbarbecue
-			},
-			{
-				label: "pic-label.bathroom",
-				img: imgbathroom
-			},
-			{
-				label: "pic-label.bed_room1",
-				img: imgbed_room1
-			},
-			{
-				label: "pic-label.bed_room2",
-				img: imgbed_room2
-			},
-			{
-				label: "pic-label.bed_room3",
-				img: imgbed_room3
-			},
-			{
-				label: "pic-label.bed_room4",
-				img: imgbed_room4
-			},
-			{
-				label: "pic-label.garden",
-				img: imggarden
-			},
-			{
-				label: "pic-label.garden",
-				img: imggarden2
-			},
-			{
-				label: "pic-label.kitchen",
-				img: imgkitchen
-			},
-			{
-				label: "pic-label.living_room",
-				img: imgliving_room
-			},
-			{
-				label: "pic-label.living_room",
-				img: imgliving_room2
-			},
-			{
-				label: "pic-label.terrace_pool",
-				img: imgterrace
-			},
-			{
-				label: "pic-label.poolhouse",
-				img: imgpoolhouse
-			},
-			{
-				label: "pic-label.main_entrance",
-				img: imgmain_entrance
-			}
-		]);
+		{
+			label: "pic-label.barbecue",
+			img: "/images/locations/mauragne/barbecue.jpg"
+		},
+		{
+			label: "pic-label.bathroom",
+			img: "/images/locations/mauragne/bathroom.jpg"
+		},
+		{
+			label: "pic-label.bed_room1",
+			img: "/images/locations/mauragne/bed_room1.jpg"
+		},
+		{
+			label: "pic-label.bed_room2",
+			img: "/images/locations/mauragne/bed_room2.jpg"
+		},
+		{
+			label: "pic-label.bed_room3",
+			img: "/images/locations/mauragne/bed_room3.jpg"
+		},
+		{
+			label: "pic-label.bed_room4",
+			img: "/images/locations/mauragne/bed_room4.jpg"
+		},
+		{
+			label: "pic-label.garden",
+			img: "/images/locations/mauragne/garden.jpg"
+		},
+		{
+			label: "pic-label.garden",
+			img: "/images/locations/mauragne/garden&.jpg"
+		},
+		{
+			label: "pic-label.kitchen",
+			img: "/images/locations/mauragne/lavender_pool.jpg"
+		},
+		{
+			label: "pic-label.living_room",
+			img: "/images/locations/mauragne/living_room.jpg"
+		},
+		{
+			label: "pic-label.living_room",
+			img: "/images/locations/mauragne/living_room&.jpg"
+		},
+		{
+			label: "pic-label.terrace_pool",
+			img: "/images/locations/mauragne/terrace_pool.jpg"
+		},
+		{
+			label: "pic-label.poolhouse",
+			img: "/images/locations/mauragne/poolhouse.jpg"
+		},
+		{
+			label: "pic-label.main_entrance",
+			img: "/images/locations/mauragne/main_entrance.jpg"
+		}
+	]);
 	const [isLoading, setIsLoading] = useState(true);
 
 	async function shufflePictures() {

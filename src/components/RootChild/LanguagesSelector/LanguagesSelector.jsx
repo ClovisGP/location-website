@@ -5,11 +5,6 @@ import i18nConfig from "@/i18n.config";
 import { useTranslation } from 'react-i18next';
 import FlagButton from "@/src/components/RootChild/LanguagesSelector/FlagButton/FlagButton"
 
-import FRFlag from "@/public/images/flags/fr.jpg";
-import ENFlag from "@/public/images/flags/en.jpg";
-import DEFlag from "@/public/images/flags/de.jpg";
-import NLFlag from "@/public/images/flags/nl.jpg";
-
 function LanguagesSelector(props) {
     const { i18n } = useTranslation();
 
@@ -22,13 +17,13 @@ function LanguagesSelector(props) {
     function getFlagSrc(language) {
         switch (language) {
             case 'en':
-                return ENFlag;
+                return "/images/flags/en.jpg";
             case 'de':
-                return DEFlag;
+                return "/images/flags/de.jpg";
             case 'nl':
-                return NLFlag;
+                return "/images/flags/nl.jpg";
             default:
-                return FRFlag;
+                return "/images/flags/fr.jpg";
         }
     }
 
