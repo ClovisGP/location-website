@@ -46,22 +46,24 @@
 		"descriptionGeo": "Supermarkets: 5 km\nBus station: 4 km\nTrain station: 33 km (Cavaillon)\nTGV station: 56 km (Avignon)"
 	},
 	"contact": {
-		"contactUs": "Contact me",
-		"email": "Email address",
+		"contactUs": "Contact Me",
+		"email": "Email Address",
 		"name": "Name",
-		"phone": "Phone number"
+		"phone": "Phone Number",
+		"address": "Address",
+		"website": "Website"
 	},
 	"legalMention": {
-		"legalMention": "Legal Mentions",
-		"siteEditor": "Website Editor",
-		"siteEditorText": "test\ntest\ntes\n",
-		"siteHost": "Website Host",
-		"siteHostText": "test\ntest\ntes\n",
-		"intellectualProperty": "Intellectual property",
-		"intellectualPropertyText": "All content on this site, including texts, images, and possible multimedia elements, is protected by intellectual property laws. Any reproduction or use without authorization is prohibited.",
-		"responsibility": "Responsibility",
-		"responsibilityText": "The publisher strives to provide accurate and up-to-date information on the proposed rentals but cannot guarantee the accuracy or completeness of the information. It cannot be held responsible for errors, omissions, or unavailability of the site.",
-		"personalData": "Personal data",
+		"legalMention": "Legal Notice",
+		"siteEditor": "Site Editor",
+		"siteEditorText": "This site is edited as an individual by:",
+		"siteHost": "Site Host",
+		"siteHostText": "This site is hosted on:",
+		"intellectualProperty": "Intellectual Property",
+		"intellectualPropertyText": "All content on this site, including text, images, and any multimedia elements, is protected by intellectual property laws. Any reproduction or use without authorization is prohibited.",
+		"responsability": "Responsibility",
+		"responsabilityText": "The editor strives to provide accurate and up-to-date information on the listings offered but cannot guarantee the accuracy or completeness of the information. They cannot be held responsible for errors, omissions, or site unavailability.",
+		"personalData": "Personal Data",
 		"personalDataText": "This site does not collect any data and does not use cookies."
 	},
 	"pic-label": {

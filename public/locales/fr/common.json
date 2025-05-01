@@ -49,18 +49,20 @@
 		"contactUs": "Me contacter",
 		"email": "Adresse e-mail",
 		"name": "Nom",
-		"phone": "Numéro de téléphone"
+		"phone": "Numéro de téléphone",
+		"address": "Adresse",
+		"website": "Site web"
 	},
 	"legalMention": {
 		"legalMention": "Mentions légales",
 		"siteEditor": "Éditeur du site",
-		"siteEditorText": "test\ntest\ntes\n",
+		"siteEditorText": "Ce site est édité en tant que particulier par:",
 		"siteHost": "Hébergeur du site",
-		"siteHostText": "test\ntest\ntes\n",
+		"siteHostText": "Ce site est hébergé sur:",
 		"intellectualProperty": "Propriété intellectuelle",
 		"intellectualPropertyText": "L'ensemble du contenu de ce site, incluant les textes, images et éventuels éléments multimédias, est protégé par les lois sur la propriété intellectuelle. Toute reproduction ou utilisation sans autorisation est interdite.",
-		"responsibility": "Responsabilité",
-		"responsibilityText": "L'éditeur s'efforce de fournir des informations exactes et à jour sur les locations proposées, mais ne peut garantir l'exactitude ou l'exhaustivité des informations. Il ne saurait être tenu responsable des erreurs, omissions ou indisponibilités du site.",
+		"responsability": "Responsabilité",
+		"responsabilityText": "L'éditeur s'efforce de fournir des informations exactes et à jour sur les locations proposées, mais ne peut garantir l'exactitude ou l'exhaustivité des informations. Il ne saurait être tenu responsable des erreurs, omissions ou indisponibilités du site.",
 		"personalData": "Données personnelles",
 		"personalDataText": "Ce site ne collecte aucune donnée et n'utilise pas de cookies."
 	},

@@ -11,6 +11,17 @@ const isImageFile = (fileName) => {
 };
 
 /**
+ * Shuffles the given array
+ * @param {*} array The given array
+ */
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+/**
  * Generates a list of object line {label, cotegory, path} of the pictures in the directory targeted and its subdir
  * @param {string} directoryTargeted The path of the directory tageted like "./public/images/locations/"
  */
@@ -26,7 +37,6 @@ export async function genList(directoryTargeted) {
             if (stat.isDirectory()) {
                 listToReturn = [...listToReturn, ...await genList(fullPath)];
             } else {
-                console.log()
                 if (isImageFile(file)) {
                     listToReturn.push(
                         {
@@ -38,6 +48,9 @@ export async function genList(directoryTargeted) {
                 }
             }
         }
+        
+        shuffleArray(listToReturn)
+
         return listToReturn;
     } catch (error) {
         console.error("An error occurs in genList for the path: ", directoryTargeted, " The error is: ", error);
