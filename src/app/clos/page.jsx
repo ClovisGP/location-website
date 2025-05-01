@@ -5,6 +5,7 @@ import Loading from '../loading';
 import React, { useEffect, useState } from 'react'
 import CarouselCustom from '@/src/components/CarouselCustom/CarouselCustom';
 import ServicesHelper from '@/src/utils/helpers/ServicesHelper';
+import Link from 'next/link'
 
 function ClosPage() {
 	const { t } = useTranslation();
