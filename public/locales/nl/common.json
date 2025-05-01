@@ -1,0 +1,98 @@
+{
+    "common": {
+        "label": "Naam",
+        "status": "Status",
+        "description": "Beschrijving",
+        "loading": "Laden",
+        "more": "Meer...",
+        "previsualisation": "Voorbeeld",
+        "illustration": "Illustratie",
+        "indoor": "Binnenruimte:",
+        "outdoor": "Buitenruimte:",
+        "position": "Geografische locatie:",
+        "contact": "Contact",
+        "location": "Locaties",
+        "backgroundPic": "Achtergrondafbeelding",
+        "moreInfo": "Website van de activiteiten van de stad Apt",
+        "websiteRight": "Denis GILLES, Alle rechten voorbehouden"
+    },
+    "home": {
+        "home": "Home",
+        "welcome": "Vind het huis van uw dromen.",
+        "biographie": "In het hart van de Luberon, vijf kilometer van Apt, de hoofdstad van suikergoed, onthult de ziel van de Provence zich aan u. Ik verhuur deze karakteristieke boerderijen voor uw vakantie, zodat u kunt genieten van de natuur en onze prachtige regio. Hier zal de zon en ik u verwelkomen in deze oase van rust.\nAls wijnbouwer op een klein domein van 7 hectare kan ik u mijn beroep laten ontdekken, een kennis die van vader op zoon is doorgegeven gedurende meerdere generaties.\nIk besteed speciale aandacht aan de decoratie en inrichting van uw vakantiekader om u alle mooie cadeaus te bieden die de Provence te bieden heeft."
+    },
+    "bergerie": {
+        "label": "Bergerie",
+        "welcome": "Welkom bij de Bergerie:",
+        "description": "Deze ruime en authentieke voormalige schaapskooi uit de 17e eeuw, met zijn typische Provençaalse architectuur tegen de berg aan, is in perfecte harmonie met de natuur. Tussen bos en berg ontdekt u het pittoreske hart van de hele Provence.",
+        "descriptionIndoor": "Capaciteit: 7 personen\nWoonoppervlakte: 210m²\nAantal kamers: 10\nSlaapkamers: 4 (4 bedden)\nBadkamer: 1 (badkuip)\nWC: 1\nOpen keuken: ja\nVaatwasser: ja\nWasmachine: ja\nTelevisie: ja\nAirconditioning: ja\nVerwarming: elektrisch en 1 open haard",
+        "descriptionOutdoor": "Terrein: 18 hectare\nBinnenzwembad:\n- Grootte: 7m x 6m\n- Diepte: Van 1,30m tot 1,80m\n- Beveiliging: Omheind\nTafeltennis: ja\nBarbecue: ja\nBuitenmeubilair: ja\nTerrassen: 2\nParkeren: 2 plekken\n4x4-voertuig beschikbaar voor toegang",
+        "descriptionGeo": "Supermarkten: 5 km\nBusstation: 4 km\nTreinstation: 33 km (Cavaillon)\nTGV-station: 56 km (Avignon)"
+    },
+    "clos": {
+        "label": "Mas de la Rocaille",
+        "welcome": "Welkom bij Mas de la Rocaille:",
+        "description": "Laat u verleiden door dit ruime vrijstaande huis van 240m² met zwembad, vier slaapkamers en een verfijnde inrichting. U verblijft in deze natuurlijke bosomgeving waar rust heerst, op minder dan 5 km van de stad Apt en haar winkels.",
+        "descriptionIndoor": "Capaciteit: 7 personen\nWoonoppervlakte: 240m²\nAantal kamers: 6\nSlaapkamers: 4 (4 bedden 160x200cm)\nBadkamer: 2 (1 douche - 1 badkuip)\nWC: 2\nOpen keuken: ja\nVaatwasser: ja\nWasmachine: ja\nTelevisie: ja\nInternet: ja\nAirconditioning: ja\nVerwarming: elektrisch en 1 open haard",
+        "descriptionOutdoor": "Terrein: 2000m²\nZwembad:\n- Grootte: 10m x 4m\n- Diepte: Van 1,10m tot 1,90m\n- Alarm: Ja\nTafeltennis: ja\nBarbecue: ja\nBuitenmeubilair: ja\nParkeren: 3 plekken",
+        "descriptionGeo": "Supermarkten: 5 km\nBusstation: 4 km\nTreinstation: 33 km (Cavaillon)\nTGV-station: 56 km (Avignon)"
+    },
+    "mauragne": {
+        "label": "Mas de Mauragne",
+        "welcome": "Welkom bij Mas de Mauragne:",
+        "description": "Prachtig landgoed van 2400m² gelegen in een typisch beboste omgeving van de Luberon. Dit huis van 240m² met vier slaapkamers is ideaal om te ontspannen in een rustige landelijke omgeving, op slechts 10 minuten van het centrum van Apt.\nVerwarmd zwembad beschikbaar afhankelijk van het seizoen.",
+        "descriptionIndoor": "Capaciteit: 6 personen\nWoonoppervlakte: 240m²\nAantal kamers: 6\nSlaapkamers: 4 (4 bedden)\nBadkamer: 2 (1 douche - 1 badkuip)\nWC: 2\nOpen keuken: ja\nVaatwasser: ja\nWasmachine: ja\nTelevisie: ja\nInternet: ja\nAirconditioning: ja\nVerwarming: elektrisch en 1 open haard",
+        "descriptionOutdoor": "Terrein: 2000m²\nZwembad:\n- Grootte: 9m x 4m\n- Diepte: Van 1,10m tot 1,90m\n- Alarm: Ja\n- Verwarming: Op aanvraag en afhankelijk van het seizoen\nTafeltennis: ja\nBarbecue: ja\nBuitenmeubilair: ja\nParkeren: 2 plekken",
+        "descriptionGeo": "Supermarkten: 5 km\nBusstation: 4 km\nTreinstation: 33 km (Cavaillon)\nTGV-station: 56 km (Avignon)"
+    },
+    "contact": {
+        "contactUs": "Neem contact met me op",
+        "email": "E-mailadres",
+        "name": "Naam",
+        "phone": "Telefoonnummer",
+        "address": "Adres",
+        "website": "Website"
+    },
+    "legalMention": {
+        "legalMention": "Wettelijke vermeldingen",
+        "siteEditor": "Site-uitgever",
+        "siteEditorText": "Deze site wordt uitgegeven als particulier door:",
+        "siteHost": "Site-host",
+        "siteHostText": "Deze site wordt gehost op:",
+        "intellectualProperty": "Intellectueel eigendom",
+        "intellectualPropertyText": "Alle inhoud van deze site, inclusief teksten, afbeeldingen en eventuele multimedia-elementen, is beschermd door intellectuele eigendomsrechten. Elke reproductie of gebruik zonder toestemming is verboden.",
+        "responsability": "Verantwoordelijkheid",
+        "responsabilityText": "De uitgever streeft ernaar nauwkeurige en actuele informatie te verstrekken over de aangeboden verhuur, maar kan de juistheid of volledigheid van de informatie niet garanderen. Hij kan niet aansprakelijk worden gesteld voor fouten, weglatingen of de onbeschikbaarheid van de site.",
+        "personalData": "Persoonlijke gegevens",
+        "personalDataText": "Deze site verzamelt geen gegevens en maakt geen gebruik van cookies."
+    },
+    "pic-label": {
+        "test": "Test",
+        "harvest": "Wijnoogst",
+        "harvest_tractor": "Oogsttraktor",
+        "grapes_vat": "Druiventonne",
+        "barbecue": "Barbecue",
+        "bathroom": "Badkamer",
+        "bathroom1": "Eerste badkamer",
+        "bathroom2": "Tweede badkamer",
+        "bed_room": "Slaapkamer",
+        "bed_room1": "Eerste slaapkamer",
+        "bed_room2": "Tweede slaapkamer",
+        "bed_room3": "Derde slaapkamer",
+        "bed_room4": "Vierde slaapkamer",
+        "garden": "Tuin",
+        "kitchen": "Keuken",
+        "lavender_pool": "Lavendelzwembad",
+        "pool": "Zwembad",
+        "living_room": "Woonkamer",
+        "main_entrance": "Hoofdingang",
+        "poolhouse": "Poolhuis",
+        "terrace_pool": "Buitenruimte",
+        "dining_room": "Eetkamer",
+        "terrace": "Terras",
+        "foret_des_cedres": "Cedersbos",
+        "robin_bird": "Een roodborstje",
+        "rock_lizard": "Een hagedis",
+        "sivergue_waterfall": "Waterval nabij Sivergue"
+    }
+}

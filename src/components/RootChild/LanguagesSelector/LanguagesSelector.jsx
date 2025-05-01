@@ -1,12 +1,14 @@
 "use client"
 
-import React, { useState } from 'react'
+import React from 'react'
 import i18nConfig from "@/i18n.config";
 import { useTranslation } from 'react-i18next';
 import FlagButton from "@/src/components/RootChild/LanguagesSelector/FlagButton/FlagButton"
 
 import FRFlag from "@/public/images/flags/fr.jpg";
 import ENFlag from "@/public/images/flags/en.jpg";
+import DEFlag from "@/public/images/flags/de.jpg";
+import NLFlag from "@/public/images/flags/nl.jpg";
 
 function LanguagesSelector(props) {
     const { i18n } = useTranslation();
@@ -21,6 +23,10 @@ function LanguagesSelector(props) {
         switch (language) {
             case 'en':
                 return ENFlag;
+            case 'de':
+                return DEFlag;
+            case 'nl':
+                return NLFlag;
             default:
                 return FRFlag;
         }

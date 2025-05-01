@@ -2,7 +2,7 @@
  * The i18nConfig
  */
 const i18nConfig = {
-    locales: ['fr', 'en'],
+    locales: ['fr', 'en', 'de', 'nl'],
     defaultLocale:'fr'
 }
 

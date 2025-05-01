@@ -22,7 +22,7 @@ function RootChild({ children }) {
             {/* Header */}
             <div className="relative flex h-[10%] w-full flex-wrap items-center justify-center bg-customGray px-3 py-0 text-base text-customBrown md:text-lg lg:text-base">
                 <Navbar />
-                <div className='absolute right-2 flex h-fit w-fit items-center justify-between space-x-5 md:right-10'>
+                <div className='absolute right-2 flex h-fit w-fit items-center top-2 justify-between space-x-5 md:right-3 md:top-3'>
                     <div className='h-full w-fit'>
                         <LanguagesSelector />
                     </div>

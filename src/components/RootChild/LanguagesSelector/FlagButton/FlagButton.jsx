@@ -6,7 +6,7 @@ import Image from 'next/image'
 function FlagButton(props) {
 	return (
 		<button
-			className='relative h-3 w-4 hover:h-4 hover:w-5 md:h-8 md:w-10 hover:md:h-10 hover:md:w-12'
+			className='relative h-4 w-5 hover:h-5 hover:w-6 md:h-7 md:w-9 hover:md:h-9 hover:md:w-10'
 			id={props.label}
 			onClick={props.onClick}>
 			<Image

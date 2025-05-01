@@ -1,0 +1,98 @@
+{
+    "common": {
+        "label": "Name",
+        "status": "Status",
+        "description": "Beschreibung",
+        "loading": "Ladevorgang",
+        "more": "Mehr...",
+        "previsualisation": "Vorschau",
+        "illustration": "Illustration",
+        "indoor": "Innenbereich:",
+        "outdoor": "Außenbereich:",
+        "position": "Geografische Lage:",
+        "contact": "Kontakt",
+        "location": "Standorte",
+        "backgroundPic": "Hintergrundbild",
+        "moreInfo": "Website der Stadt Apt",
+        "websiteRight": "Denis GILLES, Alle Rechte vorbehalten"
+    },
+    "home": {
+        "home": "Startseite",
+        "welcome": "Finden Sie das Haus Ihrer Träume.",
+        "biographie": "Im Herzen des Luberon, fünf Kilometer von Apt, der Hauptstadt der kandierten Früchte, entfernt, offenbart sich Ihnen die Seele der Provence. Ich vermiete diese charaktervollen Landhäuser für Ihren Urlaub, damit Sie sich mit der Natur und unserer schönen Region verbinden können. Hier werden Sie vom Sonnenschein und mir in dieser Oase des Friedens empfangen.\nAls Winzer auf einem kleinen Weingut von 7 Hektar kann ich Ihnen meinen Beruf zeigen, ein Wissen, das seit mehreren Generationen von Vater zu Sohn weitergegeben wird.\nIch achte besonders auf die Dekoration und Ausstattung Ihres Urlaubsrahmens, um Ihnen alle schönen Geschenke zu bieten, die die Provence zu bieten hat."
+    },
+    "bergerie": {
+        "label": "Bergerie",
+        "welcome": "Willkommen in der Bergerie:",
+        "description": "Diese geräumige und authentische ehemalige Schäferei aus dem 17. Jahrhundert mit ihrer typisch provenzalischen Architektur, die an den Berg gelehnt ist, befindet sich in perfekter Harmonie mit der Natur. Zwischen Wald und Berg erwartet Sie das malerische Herz der gesamten Provence.",
+        "descriptionIndoor": "Kapazität: 7 Personen\nWohnfläche: 210 m²\nAnzahl der Zimmer: 10\nSchlafzimmer: 4 (4 Betten)\nBadezimmer: 1 (Badewanne)\nWC: 1\nOffene Küche: ja\nGeschirrspüler: ja\nWaschmaschine: ja\nFernseher: ja\nKlimaanlage: ja\nHeizung: elektrisch und 1 Kamin",
+        "descriptionOutdoor": "Grundstück: 18 Hektar\nInnenpool:\n- Größe: 7 m x 6 m\n- Tiefe: 1,30 m bis 1,80 m\n- Sicherheit: Eingezäunt\nTischtennisplatte: ja\nGrill: ja\nAußenmöbel: ja\nTerrassen: 2\nParkplatz: 2 Plätze\n4x4-Fahrzeug für den Zugang verfügbar",
+        "descriptionGeo": "Supermärkte: 5 km\nBusbahnhof: 4 km\nBahnhof: 33 km (Cavaillon)\nTGV-Bahnhof: 56 km (Avignon)"
+    },
+    "clos": {
+        "label": "Mas de la Rocaille",
+        "welcome": "Willkommen im Mas de la Rocaille:",
+        "description": "Lassen Sie sich von diesem geräumigen Einfamilienhaus von 240 m² mit seinem Pool, vier Schlafzimmern und seiner eleganten Einrichtung verführen. Sie wohnen in dieser natürlichen Waldumgebung, in der Ruhe herrscht, weniger als 5 km von der Stadt Apt und ihren Geschäften entfernt.",
+        "descriptionIndoor": "Kapazität: 7 Personen\nWohnfläche: 240 m²\nAnzahl der Zimmer: 6\nSchlafzimmer: 4 (4 Betten 160x200 cm)\nBadezimmer: 2 (1 Dusche - 1 Badewanne)\nWC: 2\nOffene Küche: ja\nGeschirrspüler: ja\nWaschmaschine: ja\nFernseher: ja\nInternet: ja\nKlimaanlage: ja\nHeizung: elektrisch und 1 Kamin",
+        "descriptionOutdoor": "Grundstück: 2000 m²\nPool:\n- Größe: 10 m x 4 m\n- Tiefe: 1,10 m bis 1,90 m\n- Alarm: Ja\nTischtennisplatte: ja\nGrill: ja\nAußenmöbel: ja\nParkplatz: 3 Plätze",
+        "descriptionGeo": "Supermärkte: 5 km\nBusbahnhof: 4 km\nBahnhof: 33 km (Cavaillon)\nTGV-Bahnhof: 56 km (Avignon)"
+    },
+    "mauragne": {
+        "label": "Mas de Mauragne",
+        "welcome": "Willkommen im Mas de Mauragne:",
+        "description": "Wunderschönes Anwesen von 2400 m² in einer typischen bewaldeten Umgebung des Luberon. Dieses 240 m² große Haus mit vier Schlafzimmern ist ideal, um sich in einer friedlichen ländlichen Umgebung zu erholen und gleichzeitig nur 10 Minuten vom Zentrum von Apt entfernt zu sein.\nBeheizter Pool je nach Saison verfügbar.",
+        "descriptionIndoor": "Kapazität: 6 Personen\nWohnfläche: 240 m²\nAnzahl der Zimmer: 6\nSchlafzimmer: 4 (4 Betten)\nBadezimmer: 2 (1 Dusche - 1 Badewanne)\nWC: 2\nOffene Küche: ja\nGeschirrspüler: ja\nWaschmaschine: ja\nFernseher: ja\nInternet: ja\nKlimaanlage: ja\nHeizung: elektrisch und 1 Kamin",
+        "descriptionOutdoor": "Grundstück: 2000 m²\nPool:\n- Größe: 9 m x 4 m\n- Tiefe: 1,10 m bis 1,90 m\n- Alarm: Ja\n- Heizung: Auf Anfrage und je nach Saison\nTischtennisplatte: ja\nGrill: ja\nAußenmöbel: ja\nParkplatz: 2 Plätze",
+        "descriptionGeo": "Supermärkte: 5 km\nBusbahnhof: 4 km\nBahnhof: 33 km (Cavaillon)\nTGV-Bahnhof: 56 km (Avignon)"
+    },
+    "contact": {
+        "contactUs": "Kontaktieren Sie mich",
+        "email": "E-Mail-Adresse",
+        "name": "Name",
+        "phone": "Telefonnummer",
+        "address": "Adresse",
+        "website": "Website"
+    },
+    "legalMention": {
+        "legalMention": "Impressum",
+        "siteEditor": "Website-Herausgeber",
+        "siteEditorText": "Diese Website wird als Privatperson herausgegeben von:",
+        "siteHost": "Website-Host",
+        "siteHostText": "Diese Website wird gehostet auf:",
+        "intellectualProperty": "Geistiges Eigentum",
+        "intellectualPropertyText": "Der gesamte Inhalt dieser Website, einschließlich Texten, Bildern und möglichen Multimedia-Elementen, ist durch das Urheberrecht geschützt. Jede Vervielfältigung oder Nutzung ohne Genehmigung ist untersagt.",
+        "responsability": "Verantwortung",
+        "responsabilityText": "Der Herausgeber bemüht sich, genaue und aktuelle Informationen zu den angebotenen Mietobjekten bereitzustellen, kann jedoch keine Garantie für die Richtigkeit oder Vollständigkeit der Informationen übernehmen. Er kann nicht für Fehler, Auslassungen oder die Nichtverfügbarkeit der Website verantwortlich gemacht werden.",
+        "personalData": "Persönliche Daten",
+        "personalDataText": "Diese Website erhebt keine Daten und verwendet keine Cookies."
+    },
+    "pic-label": {
+        "test": "Test",
+        "harvest": "Weinlese",
+        "harvest_tractor": "Ernte-Traktor",
+        "grapes_vat": "Traubenbehälter",
+        "barbecue": "Grill",
+        "bathroom": "Badezimmer",
+        "bathroom1": "Erstes Badezimmer",
+        "bathroom2": "Zweites Badezimmer",
+        "bed_room": "Schlafzimmer",
+        "bed_room1": "Erstes Schlafzimmer",
+        "bed_room2": "Zweites Schlafzimmer",
+        "bed_room3": "Drittes Schlafzimmer",
+        "bed_room4": "Viertes Schlafzimmer",
+        "garden": "Garten",
+        "kitchen": "Küche",
+        "lavender_pool": "Lavendel-Pool",
+        "pool": "Pool",
+        "living_room": "Wohnzimmer",
+        "main_entrance": "Haupteingang",
+        "poolhouse": "Poolhaus",
+        "terrace_pool": "Außenbereich",
+        "dining_room": "Esszimmer",
+        "terrace": "Terrasse",
+        "foret_des_cedres": "Zedernwald",
+        "robin_bird": "Ein Rotkehlchen",
+        "rock_lizard": "Eine Eidechse",
+        "sivergue_waterfall": "Wasserfall in der Nähe von Sivergue"
+    }
+}
