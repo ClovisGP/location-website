@@ -38,7 +38,7 @@ function CarouselCustom(props) {
                                     <DivPic
                                         picture={pic.img}
                                         alt={t(pic.label)}
-                                        description={t(pic.label)}
+                                        description={props.nameDisplayed ? t(pic.label) : null}
                                     />
                                 </div>
                             </CarouselItem>

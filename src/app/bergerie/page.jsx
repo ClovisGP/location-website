@@ -15,12 +15,12 @@ function BergeriePage() {
 			img: "/images/locations/bergerie/kitchen.jpg"
 		},
 		{
-			label: 'pic-label.outdoor',
-			img: "/images/locations/bergerie/outdoor.jpg"
+			label: 'pic-label.terrace_pool',
+			img: "/images/locations/bergerie/outdoor1.jpg"
 		},
 		{
-			label: 'pic-label.outdoor',
-			img: "/images/locations/bergerie/outdoor&.jpg"
+			label: 'pic-label.terrace_pool',
+			img: "/images/locations/bergerie/outdoor2.jpg"
 		},
 		{
 			label: 'pic-label.terrace',

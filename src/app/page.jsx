@@ -15,7 +15,7 @@ function Home() {
 			img: "/images/locations/presentation/foret_des_cedres.jpg"
 		},
 		{
-			label: "pic-label.grapes_vak",
+			label: "pic-label.grapes_vat",
 			img: "/images/locations/presentation/grapes_vak.jpg"
 		},
 		{
@@ -66,7 +66,8 @@ function Home() {
 						<>
 							<div className='absolute bottom-0 left-0 right-0 top-0'>
 								<CarouselCustom
-									list={picturesList} />
+									list={picturesList}
+									nameDisplayed={!textDisplayed} />
 							</div>
 							<button
 								className={`absolute left-1 top-1 p-1 w-12 h-12 md:top-2 md:left-2 lg:top-5 lg:left-5 hover:opacity-100 hover:bg-opacity-100 hover:bg-stone-400 active:bg-stone-500 bg-stone-300 bg-opacity-95 z-30 rounded-md ${textDisplayed ? "" : "opacity-50"}`}

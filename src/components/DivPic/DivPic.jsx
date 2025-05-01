@@ -14,8 +14,7 @@ function DivPic(props) {
             <img
                 src={props.picture}
                 alt={props.alt}
-                fill
-                className="object-cover"
+                className="absolute inset-0 w-full h-full object-cover"
             />
             {
                 props.description && (
