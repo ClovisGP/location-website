@@ -12,9 +12,7 @@ import Autoplay from "embla-carousel-autoplay"
 
 /**
  * This component is a carousel of pictures that you can use to navigate
- * @prop list - The list of object with a path, a category and a label
- * @prop nameDisplayed - OPTIONAL, is the footer with the discription is displayed
- * @prop fullname - OPTIONAL Is the name of the picture is the fullname. By default no
+ * @prop list - The list of object with a img and label
  * @prop time - OPTIONAL Is the time in milliseconds when the pictures change. By default, it is 5000.
  */
 function CarouselCustom(props) {
@@ -38,9 +36,9 @@ function CarouselCustom(props) {
                                 className="h-full flex items-center justify-center flex-[0_0_100%]" >
                                 <div className='h-full w-full'>
                                     <DivPic
-                                        picture={pic.path}
-                                        alt={t(`${pic.category}.label`)}
-                                        description={props.nameDisplayed ? props.fullname ? `${t(`${pic.category}.label`)} - ${t(`pic-label.${pic.label.toLowerCase()}`)}` : t(`pic-label.${pic.label.toLowerCase()}`) : null}
+                                        picture={pic.img}
+                                        alt={t(pic.label)}
+                                        description={t(pic.label)}
                                     />
                                 </div>
                             </CarouselItem>

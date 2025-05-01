@@ -1,6 +1,6 @@
 {
   "name": "website-location",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -36,6 +36,7 @@
     "react-modal": "^3.16.1",
     "react-select": "^5.8.0",
     "react-toastify": "^10.0.5",
+    "sharp": "^0.34.1",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
     "zustand": "^4.5.2"

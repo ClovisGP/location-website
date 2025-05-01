@@ -4,32 +4,86 @@ import { useTranslation } from 'react-i18next';
 import Loading from '../loading';
 import React, { useEffect, useState } from 'react'
 import CarouselCustom from '@/src/components/CarouselCustom/CarouselCustom';
-import ServicesHelper from '@/src/utils/helpers/ServicesHelper';
 import Link from 'next/link'
+import shuffleArray from '@/src/utils/helpers/OtherHelper';
+
+import imgBed_room from "@/public/images/locations/clos/bed_room.jpg"
+import imgBed_room2 from "@/public/images/locations/clos/bed_room&.jpg"
+import imgDining_room from "@/public/images/locations/clos/dining_room.jpg"
+import imgTerrace from "@/public/images/locations/clos/terrace.jpg"
+import imggarden from "@/public/images/locations/clos/garden.jpg"
+import imggarden2 from "@/public/images/locations/clos/garden&.jpg"
+import imggarden3 from "@/public/images/locations/clos/garde&n.jpg"
+import imgkitchen from "@/public/images/locations/clos/kitchen.jpg"
+import imgliving_room from "@/public/images/locations/clos/living_room.jpg"
+import imgpool from "@/public/images/locations/clos/pool.jpg"
+import imgpool2 from "@/public/images/locations/clos/pool&.jpg"
 
 function ClosPage() {
 	const { t } = useTranslation();
-	const [picturesList, setPicturesList] = useState([]);
+	const [picturesList, setPicturesList] = useState([
+		{
+			label: "pic-label.bed_room1",
+			img: imgBed_room
+		},
+		{
+			label: "pic-label.bed_room2",
+			img: imgBed_room2
+		},
+		{
+			label: "pic-label.dining_room",
+			img: imgDining_room
+		},
+		{
+			label: "pic-label.terrace",
+			img: imgTerrace
+		},
+		{
+			label: "pic-label.garden",
+			img: imggarden
+		},
+		{
+			label: "pic-label.garden",
+			img: imggarden2
+		},
+		{
+			label: "pic-label.garden",
+			img: imggarden3
+		},
+		{
+			label: "pic-label.kitchen",
+			img: imgkitchen
+		},
+		{
+			label: "pic-label.bed_room",
+			img: imgliving_room
+		},
+		{
+			label: "pic-label.pool",
+			img: imgpool
+		}
+		,
+		{
+			label: "pic-label.pool",
+			img: imgpool2
+		}
+	]);
 	const [isLoading, setIsLoading] = useState(true);
 
-	async function fetchPictures() {
+	async function shufflePictures() {
 		try {
 			setIsLoading(true);
-			const res = await fetch('/api/pictures?directory=clos');
-			if (!ServicesHelper.isError(res.status)) {
-				const response = await res.json();
-				setPicturesList(response.body)
-			}
+
+			setPicturesList(shuffleArray(picturesList))
 		} catch (error) {
-			console.error("An error was caught in fetchPictures", error);
+			console.error("An error was caught in shufflePictures", error);
 		} finally {
 			setIsLoading(false);
 		}
 	}
 
-
 	useEffect(() => {
-		fetchPictures();
+		shufflePictures();
 	}, []);
 
 	return (
@@ -104,7 +158,6 @@ function ClosPage() {
 								<div className='h-56 w-full md:h-72 md:w-[50%] lg:h-[100%] lg:min-h-96 lg:w-[45%]'>
 									<CarouselCustom
 										list={picturesList}
-										nameDisplayed={true}
 										time={2000} />
 								</div>
 							</div>

@@ -4,24 +4,43 @@ import { useTranslation } from 'react-i18next';
 import Loading from '../loading';
 import React, { useEffect, useState } from 'react'
 import CarouselCustom from '@/src/components/CarouselCustom/CarouselCustom';
-import ServicesHelper from '@/src/utils/helpers/ServicesHelper';
 import Link from 'next/link'
+import shuffleArray from '@/src/utils/helpers/OtherHelper';
+
+import imgKitchen from "@/public/images/locations/bergerie/kitchen.jpg"
+import imgOutdoor from "@/public/images/locations/bergerie/outdoor.jpg"
+import imgOutdoor2 from "@/public/images/locations/bergerie/outdoor&.jpg"
+import imgterrace from "@/public/images/locations/bergerie/terrace.jpg"
 
 function BergeriePage() {
 	const { t } = useTranslation();
-	const [picturesList, setPicturesList] = useState([]);
+	const [picturesList, setPicturesList] = useState([
+		{
+			label: 'pic-label.kitchen',
+			img: imgKitchen
+		},
+		{
+			label: 'pic-label.outdoor',
+			img: imgOutdoor
+		},
+		{
+			label: 'pic-label.outdoor',
+			img: imgOutdoor2
+		},
+		{
+			label: 'pic-label.terrace',
+			img: imgterrace
+		}
+	]);
 	const [isLoading, setIsLoading] = useState(true);
 
-	async function fetchPictures() {
+	async function shufflePictures() {
 		try {
 			setIsLoading(true);
-			const res = await fetch('/api/pictures?directory=bergerie');
-			if (!ServicesHelper.isError(res.status)) {
-				const response = await res.json();
-				setPicturesList(response.body)
-			}
+			
+			setPicturesList(shuffleArray(picturesList))
 		} catch (error) {
-			console.error("An error was caught in fetchPictures", error);
+			console.error("An error was caught in shufflePictures", error);
 		} finally {
 			setIsLoading(false);
 		}
@@ -29,7 +48,7 @@ function BergeriePage() {
 
 
 	useEffect(() => {
-		fetchPictures();
+		shufflePictures();
 	}, []);
 
 	return (
@@ -104,7 +123,6 @@ function BergeriePage() {
 								<div className='h-56 w-full md:h-72 md:w-[50%] lg:h-[100%] lg:min-h-96 lg:w-[45%]'>
 									<CarouselCustom
 										list={picturesList}
-										nameDisplayed={true}
 										time={2000} />
 								</div>
 							</div>
