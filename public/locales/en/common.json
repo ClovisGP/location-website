@@ -69,7 +69,6 @@
 	"pic-label": {
 		"test": "Test",
 		"harvest": "Harvest",
-		"harvest_tractor": "Harvest tractor",
 		"grapes_vat": "Vat of grapes",
 		"barbecue": "Barbecue",
 		"bathroom": "Bathroom",
@@ -92,7 +91,6 @@
 		"terrace": "Terrace",
 		"foret_des_cedres": "Cedar Forest",
 		"robin_bird": "A robin bird",
-		"rock_lizard": "A lizard",
 		"sivergue_waterfall": "A forest waterfall"
 	}
 }

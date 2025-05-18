@@ -69,7 +69,6 @@
     "pic-label": {
         "test": "Test",
         "harvest": "Wijnoogst",
-        "harvest_tractor": "Oogsttraktor",
         "grapes_vat": "Druiventonne",
         "barbecue": "Barbecue",
         "bathroom": "Badkamer",
@@ -92,7 +91,6 @@
         "terrace": "Terras",
         "foret_des_cedres": "Cedersbos",
         "robin_bird": "Een roodborstje",
-        "rock_lizard": "Een hagedis",
         "sivergue_waterfall": "Waterval nabij Sivergue"
     }
 }

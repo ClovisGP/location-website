@@ -69,7 +69,6 @@
 	"pic-label": {
 		"test": "Test",
 		"harvest": "Vendange",
-		"harvest_tractor": "Tracteur de vendange",
 		"grapes_vat": "Benne de raisins",
 		"barbecue": "Barbecue",
 		"bathroom": "Salle d'eau",
@@ -92,7 +91,6 @@
 		"terrace": "Terrace",
 		"foret_des_cedres": "Forêt des cèdres",
 		"robin_bird": "Un rouge-gorge",
-		"rock_lizard": "Un lézard",
 		"sivergue_waterfall": "Cascade d'eau près de Sivergue"
 	}
 }

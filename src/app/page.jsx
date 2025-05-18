@@ -19,16 +19,8 @@ function Home() {
 			img: "/images/locations/presentation/grapes_vak.jpg"
 		},
 		{
-			label: "pic-label.harvest_tractor",
-			img: "/images/locations/presentation/harvest_tractor.jpg"
-		},
-		{
 			label: "pic-label.robin_bird",
 			img: "/images/locations/presentation/robin_bird.jpg"
-		},
-		{
-			label: "pic-label.rock_lizard",
-			img: "/images/locations/presentation/rock_lizard.jpg"
 		},
 		{
 			label: "pic-label.sivergue_waterfall",
@@ -78,7 +70,7 @@ function Home() {
 							<div className='flex h-full w-full items-center justify-center px-2 py-5'>
 								{
 									textDisplayed && (
-										<div className={`z-10 flex h-[100%] w-[100%] flex-col items-center justify-center space-y-5 rounded-md bg-stone-300 bg-opacity-95 p-5 md:h-[50%] md:w-[60%] md:space-y-8 lg:h-[50%] lg:w-[40%] lg:space-y-16`} >
+										<div className={`z-10 flex h-[100%] w-[100%] flex-col space-y-3 items-center rounded-md bg-stone-300 bg-opacity-95 p-5 md:h-[50%] md:w-[60%] md:space-y-6 lg:h-[50%] lg:w-[40%] lg:space-y-10 overflow-y-auto`} >
 											<div className='text-base font-bold md:text-lg'>
 												{
 													t('home.welcome')
